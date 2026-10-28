@@ -1,6 +1,6 @@
 # JDK eMudhra Security Audit
 
-Generated (UTC): `2026-10-28T14:18:17+00:00`
+Generated (UTC): `2026-10-28T14:26:18+00:00`
 
 SDKMAN supplies vendor names only; the audit runs Docker JDK 25 images. Static file checks, trust-manager checks, and live TLS tests are independent. Image tags can change between runs.
 
@@ -11,7 +11,7 @@ SDKMAN supplies vendor names only; the audit runs Docker JDK 25 images. Static f
 - **Docker image:** Exact image tag tested; links to the vendor image repository, not the scanned digest.
 - **Runtime:** Java version and JVM os.arch architecture collected inside the image; the report JSON retains its image digest.
 - **blocked.certs:** Number of the 48 expected compromised-certificate SHA-256 fingerprints present in the JDK blocklist. This is a static file check.
-- **CheckCerts (CVE-2026-114820):** Runs the OpenJDK CheckCerts utility with the effective default X509TrustManager. ROOT_PRESENT means one or more of the four monitored roots remains, ROOTS_ABSENT means none remains. Relates to the root-removal remediation for CVE-2026-114820, but is not a live TLS-chain test. Advisory: https://www.oracle.com/security-alerts/alert-cve-2026-114820.html.
+- **CheckCerts (CVE-2026-114820):** Runs the OpenJDK CheckCerts utility with the effective default X509TrustManager. ROOTS_ABSENT means none of the four monitored root CAs appears among the effective default JVM trust manager's accepted issuers (desired root-removal inventory result). ROOT_PRESENT means one or more monitored roots is still listed; the linked log identifies them. These are root-inventory results, not TLS handshake verdicts. Relates to the root-removal remediation for CVE-2026-114820, but is not a live TLS-chain test. Advisory: https://www.oracle.com/security-alerts/alert-cve-2026-114820.html.
 - **TLS chain test:** Live Java HTTPS test of 12 endpoints; verifies pinned compromised intermediate public keys. PASS means all 12 rejected; FAIL means a verified compromised chain was accepted; INCONCLUSIVE means insufficient evidence.
 
 ## Check methodology
@@ -24,7 +24,7 @@ Checks the presence of the 48 expected compromised-intermediate fingerprints; it
 
 ### CheckCerts (CVE-2026-114820)
 
-Runs the original OpenJDK source against the stock JDK default TrustManagerFactory, inspecting accepted issuers for four monitored roots. ROOT_PRESENT indicates one or more roots remain; ROOTS_ABSENT indicates none is reported. This is an effective root-inventory check related to Oracle root-removal remediation for CVE-2026-114820, not a TLS handshake test.
+Runs the original OpenJDK source against the stock JDK default TrustManagerFactory, inspecting accepted issuers for four monitored roots. ROOTS_ABSENT means the effective default JVM trust manager does not list any of the four monitored roots (desired inventory result); ROOT_PRESENT means at least one is listed and its subject is recorded in the linked log. Neither result alone determines whether compromised TLS chains are accepted. This is an effective root-inventory check related to Oracle root-removal remediation for CVE-2026-114820, not a TLS handshake test.
 
 [Official/reference documentation](https://www.oracle.com/security-alerts/alert-cve-2026-114820.html)
 
