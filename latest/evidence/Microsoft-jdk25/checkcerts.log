@@ -1,0 +1,5 @@
+25-ubuntu: Pulling from openjdk/jdk
+Digest: sha256:dafe240d908240be68958e925f23ca71dd999cdafd1dc9340e9c6194f77daece
+Status: Image is up to date for mcr.microsoft.com/openjdk/jdk:25-ubuntu
+Java runtime version 25.0.5.0.2+1-LTS at /usr/lib/jvm/msopenjdk-25-amd64
+BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN

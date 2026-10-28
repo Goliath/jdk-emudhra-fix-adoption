@@ -1,0 +1,5 @@
+25: Pulling from graalvm/jdk
+Digest: sha256:d98f0449a0e34204ed11186bc8e91305eca8e5f2dddb29e57deff7c6d42bd0e8
+Status: Image is up to date for container-registry.oracle.com/graalvm/jdk:25
+Java runtime version 25.0.5.0.3+1-LTS-jvmci-b01 at /usr/lib64/graalvm/graalvm-java25
+No bad root certificates found

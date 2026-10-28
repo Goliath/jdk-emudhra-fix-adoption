@@ -1,0 +1,8 @@
+25: Pulling from graalvm/jdk-community
+Digest: sha256:a3bdba6a313cddc89f7e1b2649140e898c68ba356994a9c317b96b01bcb9f982
+Status: Image is up to date for ghcr.io/graalvm/jdk-community:25
+Java runtime version 25.0.2+10-jvmci-b01 at /usr/lib64/graalvm/graalvm-community-java25
+BAD ROOT: CN=emSign ECC Root CA - G3,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
+BAD ROOT: CN=AAA Certificate Services,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB
+BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
+BAD ROOT: CN=emSign Root CA - G2,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN

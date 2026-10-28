@@ -1,0 +1,5 @@
+25: Pulling from sap/sapmachine
+Digest: sha256:6e18630e44b41ee25129fb8328c2757ee3c4dc39618d8fb01389daa4e7213e2e
+Status: Image is up to date for ghcr.io/sap/sapmachine:25
+Java runtime version 25.0.5.0.3+1-LTS at /usr/lib/jvm/sapmachine-25
+No bad root certificates found

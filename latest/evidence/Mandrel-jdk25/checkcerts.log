@@ -1,0 +1,5 @@
+jdk-25: Pulling from quarkus/ubi9-quarkus-mandrel-builder-image
+Digest: sha256:29a5078c94489623ef7e554aad2cbff70a4ff872ac6d60a46f5538697ed82a30
+Status: Image is up to date for quay.io/quarkus/ubi9-quarkus-mandrel-builder-image:jdk-25
+Java runtime version 25.0.4.1+1-LTS at /opt/mandrel
+BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN

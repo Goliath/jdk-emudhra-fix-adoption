@@ -1,0 +1,8 @@
+25: Pulling from bellsoft/liberica-openjdk-debian
+Digest: sha256:213512c11989ebdcf464c475603f6381af2a447338a2a04381c14b6e786d8c94
+Status: Image is up to date for bellsoft/liberica-openjdk-debian:25
+Java runtime version 25.0.4.1+1-LTS at /usr/lib/jvm/jdk-25.0.4.1-bellsoft-x86_64
+BAD ROOT: CN=emSign ECC Root CA - G3,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
+BAD ROOT: CN=AAA Certificate Services,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB
+BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
+BAD ROOT: CN=emSign Root CA - G2,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
