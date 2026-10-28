@@ -1,6 +1,6 @@
 # JDK eMudhra Security Audit
 
-Generated (UTC): `2026-10-28T14:54:26+00:00`
+Generated (UTC): `2026-10-28T15:01:03+00:00`
 
 SDKMAN supplies vendor names only; the audit runs Docker JDK 25 images. Static file checks, trust-manager checks, and live TLS tests are independent. Image tags can change between runs.
 
@@ -15,11 +15,11 @@ SDKMAN supplies vendor names only; the audit runs Docker JDK 25 images. Static f
 
 ## Check methodology
 
-### blocked.certs fingerprint inventory
+### blocked.certs fingerprint inventory (CVE-2026-91403)
 
-Checks the presence of the 48 expected compromised-intermediate fingerprints; it does not establish runtime TLS behavior.
+Checks whether the JDK blocked.certs file contains all 48 expected SHA-256 fingerprints associated with the compromised eMudhra intermediate certificates. This is a static inventory check related to Oracle CVE-2026-91403; it does not validate TLS behavior or establish complete mitigation. OpenJDK subsequently advised root CA removal under CVE-2026-114820 because intermediate-only blocking was insufficient.
 
-[Official/reference documentation](https://ops.java/emudhra/)
+[Official/reference documentation](https://www.oracle.com/security-alerts/alert-cve-2026-91403.html)
 
 ### CheckCerts (CVE-2026-114820)
 
