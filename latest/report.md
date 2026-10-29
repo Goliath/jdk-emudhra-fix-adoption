@@ -1,6 +1,6 @@
 # JDK eMudhra Security Audit
 
-Generated (UTC): `2026-10-28T16:00:41+00:00`
+Generated (UTC): `2026-10-29T11:59:44+00:00`
 
 SDKMAN supplies vendor names only; the audit runs Docker JDK 25 images. Static file checks, trust-manager checks, and live TLS tests are independent. Image tags can change between runs.
 
@@ -10,7 +10,7 @@ SDKMAN supplies vendor names only; the audit runs Docker JDK 25 images. Static f
 - **JDK / Docker image:** Requested Java major version (currently 25) and linked tested Docker image tag. The scanned image digest remains available in JSON.
 - **Runtime:** Java version and JVM os.arch architecture collected inside the image; the report JSON retains its image digest.
 - **blocked certs:** Number of the 48 expected compromised-certificate SHA-256 fingerprints present in the JDK blocklist. This is a static file check.
-- **CheckCerts (CVE-2026-114820):** Runs the OpenJDK CheckCerts utility with the effective default X509TrustManager. ROOTS_ABSENT means none of the four monitored root CAs appears among the effective default JVM trust manager's accepted issuers (desired root-removal inventory result). ROOT_PRESENT means one or more monitored roots is still listed; the linked log identifies them. These are root-inventory results, not TLS handshake verdicts. Relates to the root-removal remediation for CVE-2026-114820, but is not a live TLS-chain test. Advisory: https://www.oracle.com/security-alerts/alert-cve-2026-114820.html.
+- **CheckCerts (CVE-2026-114820):** Checks whether the JDK still trusts any of the four root certificates Oracle recommends removing for CVE-2026-114820. ROOTS_ABSENT means none of these certificates is trusted by default. ROOT_PRESENT means at least one is still trusted; the linked log shows which ones. The check uses Java's default trust manager rather than inspecting certificate files directly. It does not test whether the JDK accepts compromised TLS certificate chains; that is covered by the separate TLS chain test.
 - **TLS chain test:** Live Java HTTPS test of 12 endpoints; verifies pinned compromised intermediate public keys. PASS means all 12 rejected; FAIL means a verified compromised chain was accepted; INCONCLUSIVE means insufficient evidence.
 
 ## Check methodology
@@ -23,9 +23,9 @@ Checks whether the JDK blocked.certs file contains all 48 expected SHA-256 finge
 
 ### CheckCerts (CVE-2026-114820)
 
-Runs the original OpenJDK source against the stock JDK default TrustManagerFactory, inspecting accepted issuers for four monitored roots. ROOTS_ABSENT means the effective default JVM trust manager does not list any of the four monitored roots (desired inventory result); ROOT_PRESENT means at least one is listed and its subject is recorded in the linked log. Neither result alone determines whether compromised TLS chains are accepted. This is an effective root-inventory check related to Oracle root-removal remediation for CVE-2026-114820, not a TLS handshake test.
+Checks whether the JDK still trusts any of the four root certificates Oracle recommends removing for CVE-2026-114820. ROOTS_ABSENT means none of these certificates is trusted by default. ROOT_PRESENT means at least one is still trusted; the linked log shows which ones. The check uses Java's default trust manager rather than inspecting certificate files directly. It does not test whether the JDK accepts compromised TLS certificate chains; that is covered by the separate TLS chain test.
 
-[Official/reference documentation](https://www.oracle.com/security-alerts/alert-cve-2026-114820.html)
+[Official/reference documentation](https://github.com/advisories/GHSA-255q-pwv4-fjj7)
 
 ### TLS chain test
 

@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-28T16:00:41+00:00",
+  "generated_utc": "2026-10-29T11:59:44+00:00",
   "source": "SDKMAN providers / Docker images",
   "majors": [
     25
@@ -258,7 +258,7 @@
       "vendor": "Liberica NIK",
       "major": 25,
       "image": "bellsoft/hardened-liberica-native-image-kit-container:jdk-25-nik-25-glibc",
-      "digest": "bellsoft/hardened-liberica-native-image-kit-container@sha256:b95e65a331ad4918d30c8c7516a4915fc443b2afefe551f8b6ac881fbc09bc67",
+      "digest": "bellsoft/hardened-liberica-native-image-kit-container@sha256:c8f4dbe4ca3088f56e847d304cbbd789a7d8fb68bbf785f7d800db7505ac988d",
       "java_version": "openjdk version \"25.0.4.1\" 2026-08-18 LTS",
       "java_arch": "amd64",
       "status": "UNPATCHED",
@@ -449,7 +449,7 @@
       "vendor": "Microsoft",
       "major": 25,
       "image": "mcr.microsoft.com/openjdk/jdk:25-ubuntu",
-      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:dafe240d908240be68958e925f23ca71dd999cdafd1dc9340e9c6194f77daece",
+      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:72fa7b7c214b24dd65df71d58b82da71e166e8ae6b59cccba5359e053f872a0a",
       "java_version": "openjdk version \"25.0.5.0.2\" 2026-10-22 LTS",
       "java_arch": "amd64",
       "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
