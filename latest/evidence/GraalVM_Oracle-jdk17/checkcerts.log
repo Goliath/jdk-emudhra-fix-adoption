@@ -1,0 +1,8 @@
+17: Pulling from graalvm/jdk
+Digest: sha256:cc1316b4e94a522d0d03b62e4d557c2cfcb11ac9f0123cf5c13d1ef9cf08ccee
+Status: Image is up to date for container-registry.oracle.com/graalvm/jdk:17
+Java runtime version 17.0.16+12-LTS-jvmci-23.0-b68 at /usr/lib64/graalvm/graalvm-java17
+BAD ROOT: CN=emSign ECC Root CA - G3,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
+BAD ROOT: CN=AAA Certificate Services,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB
+BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
+BAD ROOT: CN=emSign Root CA - G2,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN

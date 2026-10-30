@@ -1,0 +1,5 @@
+21-jdk: Pulling from library/eclipse-temurin
+Digest: sha256:ebfbb18d11ff163ee83b21258acf12248af48d22a0fdfdc68fa1a1516c05976a
+Status: Image is up to date for eclipse-temurin:21-jdk
+Java runtime version 21.0.13+9-LTS at /opt/java/openjdk
+BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN

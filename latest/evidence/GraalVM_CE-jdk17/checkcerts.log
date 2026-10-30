@@ -1,0 +1,5 @@
+17: Pulling from graalvm/jdk-community
+Digest: sha256:53b72a7e5d1227a75f324694b9fc9f539fa6a2ebf3cfdc1243befb1e071daf1d
+Status: Image is up to date for ghcr.io/graalvm/jdk-community:17
+Java runtime version 17.0.9+9-jvmci-23.0-b22 at /usr/lib64/graalvm/graalvm-community-java17
+BAD ROOT: CN=AAA Certificate Services,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB

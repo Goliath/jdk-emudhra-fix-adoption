@@ -1,0 +1,8 @@
+17.0.10-oe2203sp3: Pulling from openeuler/bisheng-jdk
+Digest: sha256:b4d476348d092399229200999b810f1ccc730c7707b4d533e2216c31fe5f64d0
+Status: Image is up to date for openeuler/bisheng-jdk:17.0.10-oe2203sp3
+Java runtime version 17.0.10+11 at /usr/lib/jvm/java-openjdk-17.0.10
+BAD ROOT: CN=emSign ECC Root CA - G3,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
+BAD ROOT: CN=AAA Certificate Services,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB
+BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
+BAD ROOT: CN=emSign Root CA - G2,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN

@@ -1,0 +1,5 @@
+open-21-jdk-ubi: Pulling from appcafe/ibm-semeru-runtimes
+Digest: sha256:6265818e605b92782b69471678c8f5844b997cfd9f9979bae17dc2e1e65dfbea
+Status: Image is up to date for icr.io/appcafe/ibm-semeru-runtimes:open-21-jdk-ubi
+Java runtime version 21.0.13.0.3+1-LTS at /opt/java/openjdk
+BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN

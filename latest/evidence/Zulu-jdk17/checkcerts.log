@@ -1,0 +1,8 @@
+17: Pulling from library/azul-zulu
+Digest: sha256:0747aed0ee1940c1b9934f88b48c175f185f259d5485e4cfa98fd56f3ec74c84
+Status: Image is up to date for azul-zulu:17
+Java runtime version 17.0.21+9-LTS at /usr/lib/jvm/zulu17-ca-amd64
+BAD ROOT: CN=emSign ECC Root CA - G3,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
+BAD ROOT: CN=AAA Certificate Services,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB
+BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
+BAD ROOT: CN=emSign Root CA - G2,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
