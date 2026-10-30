@@ -1,5 +1,5 @@
 jdk-25-nik-25-glibc: Pulling from bellsoft/hardened-liberica-native-image-kit-container
-Digest: sha256:c8f4dbe4ca3088f56e847d304cbbd789a7d8fb68bbf785f7d800db7505ac988d
+Digest: sha256:2e6ebb7942fd714373156c00f0b17af05ba958736e651923fee568b089c639fd
 Status: Image is up to date for bellsoft/hardened-liberica-native-image-kit-container:jdk-25-nik-25-glibc
 CONTROL OK
   peer subject=CN=dv-g3b-emudhra.we-have-a-problem.com SPKI=27A1F73E0E681CA0D5E8CB036A111944CEF09F1EE170A6F6DF0023B97B290A14

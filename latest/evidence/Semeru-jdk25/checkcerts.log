@@ -1,6 +1,5 @@
 open-25-jdk-ubi: Pulling from appcafe/ibm-semeru-runtimes
-Digest: sha256:8e069ed66f03bc0252ecf35f8d7085ac1bc1c9f36511f6282da2ea59a482961c
+Digest: sha256:8eed869039d4ca12d0eb35357c2552b6cc4fa752fca8264bc8e204b053687ea0
 Status: Image is up to date for icr.io/appcafe/ibm-semeru-runtimes:open-25-jdk-ubi
-Java runtime version 25.0.4.1+1-LTS at /opt/java/openjdk
-BAD ROOT: CN=emSign ECC Root CA - G3,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
+Java runtime version 25.0.5.0.3+1-LTS at /opt/java/openjdk
 BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
