@@ -1,5 +1,5 @@
 jdk-25: Pulling from quarkus/ubi9-quarkus-mandrel-builder-image
-Digest: sha256:29a5078c94489623ef7e554aad2cbff70a4ff872ac6d60a46f5538697ed82a30
+Digest: sha256:6e0fe1ddc9efcf8dc1775c3016974db8d07124f805ba963495ec2bddb2d47349
 Status: Image is up to date for quay.io/quarkus/ubi9-quarkus-mandrel-builder-image:jdk-25
 CONTROL OK
   peer subject=CN=dv-g3b-emudhra.we-have-a-problem.com SPKI=27A1F73E0E681CA0D5E8CB036A111944CEF09F1EE170A6F6DF0023B97B290A14

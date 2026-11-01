@@ -1,6 +1,6 @@
 # JDK eMudhra Security Audit
 
-Generated (UTC): `2026-10-30T09:53:44+00:00`
+Generated (UTC): `2026-11-01T23:33:38+00:00`
 
 SDKMAN supplies vendor names only; the audit runs Docker JDK 25 images. Static file checks, trust-manager checks, and live TLS tests are independent. Image tags can change between runs.
 
@@ -49,7 +49,7 @@ Uses a delegating Java trust manager to check twelve live certificate chains wit
 | Liberica | 25 - [bellsoft/liberica-openjdk-debian:25](https://hub.docker.com/r/bellsoft/liberica-openjdk-debian) | openjdk version "25.0.5.0.3" 2026-10-24 LTS [amd64] | 48/48 | [ROOTS_ABSENT](evidence/Liberica-jdk25/checkcerts.log) | [PASS (12/12)](evidence/Liberica-jdk25/compromisedca.log) |
 | Liberica NIK | 17 - [bellsoft/hardened-liberica-native-image-kit-container:jdk-17-nik-23-glibc](https://hub.docker.com/r/bellsoft/hardened-liberica-native-image-kit-container) | openjdk version "17.0.20.1" 2026-08-18 LTS [amd64] | 0/48 | [ROOT_PRESENT](evidence/Liberica_NIK-jdk17/checkcerts.log) | [FAIL](evidence/Liberica_NIK-jdk17/compromisedca.log) |
 | Liberica NIK | 25 - [bellsoft/hardened-liberica-native-image-kit-container:jdk-25-nik-25-glibc](https://hub.docker.com/r/bellsoft/hardened-liberica-native-image-kit-container) | openjdk version "25.0.4.1" 2026-08-18 LTS [amd64] | 0/48 | [ROOT_PRESENT](evidence/Liberica_NIK-jdk25/checkcerts.log) | [FAIL](evidence/Liberica_NIK-jdk25/compromisedca.log) |
-| Mandrel | 25 - [quay.io/quarkus/ubi9-quarkus-mandrel-builder-image:jdk-25](https://quay.io/quarkus/ubi9-quarkus-mandrel-builder-image) | openjdk version "25.0.4.1" 2026-08-18 LTS [amd64] | 0/48 | [ROOT_PRESENT](evidence/Mandrel-jdk25/checkcerts.log) | [PASS (12/12)](evidence/Mandrel-jdk25/compromisedca.log) |
+| Mandrel | 25 - [quay.io/quarkus/ubi9-quarkus-mandrel-builder-image:jdk-25](https://quay.io/quarkus/ubi9-quarkus-mandrel-builder-image) | openjdk version "25.0.5" 2026-10-20 LTS [amd64] | 0/48 | [ROOT_PRESENT](evidence/Mandrel-jdk25/checkcerts.log) | [PASS (12/12)](evidence/Mandrel-jdk25/compromisedca.log) |
 | Microsoft | 17 - [mcr.microsoft.com/openjdk/jdk:17-ubuntu](https://mcr.microsoft.com/en-us/artifact/mar/openjdk/jdk/tags) | openjdk version "17.0.21.0.2" 2026-10-22 LTS [amd64] | 48/48 | [ROOT_PRESENT](evidence/Microsoft-jdk17/checkcerts.log) | [PASS (12/12)](evidence/Microsoft-jdk17/compromisedca.log) |
 | Microsoft | 21 - [mcr.microsoft.com/openjdk/jdk:21-ubuntu](https://mcr.microsoft.com/en-us/artifact/mar/openjdk/jdk/tags) | openjdk version "21.0.13.0.2" 2026-10-22 LTS [amd64] | 48/48 | [ROOT_PRESENT](evidence/Microsoft-jdk21/checkcerts.log) | [PASS (12/12)](evidence/Microsoft-jdk21/compromisedca.log) |
 | Microsoft | 25 - [mcr.microsoft.com/openjdk/jdk:25-ubuntu](https://mcr.microsoft.com/en-us/artifact/mar/openjdk/jdk/tags) | openjdk version "25.0.5.0.2" 2026-10-22 LTS [amd64] | 48/48 | [ROOT_PRESENT](evidence/Microsoft-jdk25/checkcerts.log) | [PASS (12/12)](evidence/Microsoft-jdk25/compromisedca.log) |
