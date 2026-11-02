@@ -1,6 +1,6 @@
 # JDK eMudhra Security Audit
 
-Generated (UTC): `2026-11-01T23:33:38+00:00`
+Generated (UTC): `2026-11-02T21:21:05+00:00`
 
 SDKMAN supplies vendor names only; the audit runs Docker JDK 25 images. Static file checks, trust-manager checks, and live TLS tests are independent. Image tags can change between runs.
 
@@ -36,9 +36,9 @@ Uses a delegating Java trust manager to check twelve live certificate chains wit
 
 | Vendor | JDK / Docker image | Runtime | blocked certs | CheckCerts | TLS chain test |
 | --- | --- | --- | --- | --- | --- |
-| Corretto | 17 - [amazoncorretto:17](https://hub.docker.com/_/amazoncorretto) | openjdk version "17.0.21" 2026-10-20 LTS [amd64] | 48/48 | [ROOT_PRESENT](evidence/Corretto-jdk17/checkcerts.log) | [PASS (12/12)](evidence/Corretto-jdk17/compromisedca.log) |
-| Corretto | 21 - [amazoncorretto:21](https://hub.docker.com/_/amazoncorretto) | openjdk version "21.0.13" 2026-10-20 LTS [amd64] | 48/48 | [ROOT_PRESENT](evidence/Corretto-jdk21/checkcerts.log) | [PASS (12/12)](evidence/Corretto-jdk21/compromisedca.log) |
-| Corretto | 25 - [amazoncorretto:25](https://hub.docker.com/_/amazoncorretto) | openjdk version "25.0.5" 2026-10-20 LTS [amd64] | 48/48 | [ROOT_PRESENT](evidence/Corretto-jdk25/checkcerts.log) | [PASS (12/12)](evidence/Corretto-jdk25/compromisedca.log) |
+| Corretto | 17 - [amazoncorretto:17](https://hub.docker.com/_/amazoncorretto) | openjdk version "17.0.21" 2026-10-20 LTS [amd64] | 48/48 | [ROOTS_ABSENT](evidence/Corretto-jdk17/checkcerts.log) | [PASS (12/12)](evidence/Corretto-jdk17/compromisedca.log) |
+| Corretto | 21 - [amazoncorretto:21](https://hub.docker.com/_/amazoncorretto) | openjdk version "21.0.13" 2026-10-20 LTS [amd64] | 48/48 | [ROOTS_ABSENT](evidence/Corretto-jdk21/checkcerts.log) | [PASS (12/12)](evidence/Corretto-jdk21/compromisedca.log) |
+| Corretto | 25 - [amazoncorretto:25](https://hub.docker.com/_/amazoncorretto) | openjdk version "25.0.5" 2026-10-20 LTS [amd64] | 48/48 | [ROOTS_ABSENT](evidence/Corretto-jdk25/checkcerts.log) | [PASS (12/12)](evidence/Corretto-jdk25/compromisedca.log) |
 | GraalVM CE | 17 - [ghcr.io/graalvm/jdk-community:17](https://github.com/graalvm/jdk-community) | openjdk version "17.0.9" 2023-10-17 [amd64] | 0/48 | [ROOT_PRESENT](evidence/GraalVM_CE-jdk17/checkcerts.log) | [FAIL](evidence/GraalVM_CE-jdk17/compromisedca.log) |
 | GraalVM CE | 25 - [ghcr.io/graalvm/jdk-community:25](https://github.com/graalvm/jdk-community) | openjdk version "25.0.2" 2026-01-20 [amd64] | 0/48 | [ROOT_PRESENT](evidence/GraalVM_CE-jdk25/checkcerts.log) | [FAIL](evidence/GraalVM_CE-jdk25/compromisedca.log) |
 | GraalVM Oracle | 17 - [container-registry.oracle.com/graalvm/jdk:17](https://container-registry.oracle.com/graalvm/jdk) | java version "17.0.16" 2025-07-15 LTS [amd64] | 0/48 | [ROOT_PRESENT](evidence/GraalVM_Oracle-jdk17/checkcerts.log) | [FAIL](evidence/GraalVM_Oracle-jdk17/compromisedca.log) |

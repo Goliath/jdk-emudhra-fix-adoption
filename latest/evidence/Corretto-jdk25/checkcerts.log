@@ -1,6 +1,5 @@
 25: Pulling from library/amazoncorretto
-Digest: sha256:8806f69d6997672a37569da54378d13ff2cd613f9abb151c493f5a359a0a8676
+Digest: sha256:b14190faff46c2ecd870fecd491b279e55a6e733822deb325023400bd0b3ee48
 Status: Image is up to date for amazoncorretto:25
 Java runtime version 25.0.5+10-LTS at /usr/lib/jvm/java-25-amazon-corretto.x86_64
-BAD ROOT: CN=emSign ECC Root CA - G3,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
-BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
+No bad root certificates found

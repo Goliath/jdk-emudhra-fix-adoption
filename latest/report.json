@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-01T23:33:38+00:00",
+  "generated_utc": "2026-11-02T21:21:05+00:00",
   "source": "SDKMAN providers / Docker images",
   "majors": [
     17,
@@ -31,10 +31,10 @@
       "vendor": "Corretto",
       "major": 17,
       "image": "amazoncorretto:17",
-      "digest": "amazoncorretto@sha256:febeee86c8dee3b80ecc1b983211cbf6ac089b8b55cd4d7c22431220c1f90d9f",
+      "digest": "amazoncorretto@sha256:8cdda475a507307ac53f51db9b5a99055ce0e6402f4e092d587b224aa2a08da5",
       "java_version": "openjdk version \"17.0.21\" 2026-10-20 LTS",
       "java_arch": "amd64",
-      "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
+      "status": "FULL",
       "error": "",
       "blocklist": {
         "readable": true,
@@ -51,12 +51,9 @@
       },
       "static_policy": "48_FINGERPRINTS_AND_CHECKCERTS_EFFECTIVE_ROOTS",
       "checkcerts": {
-        "status": "ROOT_PRESENT",
-        "exit_code": 1,
-        "bad_roots": [
-          "BAD ROOT: CN=emSign ECC Root CA - G3,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN",
-          "BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN"
-        ]
+        "status": "ROOTS_ABSENT",
+        "exit_code": 0,
+        "source": "Oracle CheckCerts trust-manager method"
       },
       "compromisedca": {
         "status": "PASS",
@@ -65,7 +62,7 @@
         "inconclusive": 0,
         "exit_code": "0"
       },
-      "static_status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
+      "static_status": "FULL",
       "effective_status": "NOT_VERIFIED",
       "image_url": "https://hub.docker.com/_/amazoncorretto",
       "checkcerts_log": "evidence/Corretto-jdk17/checkcerts.log",
@@ -77,10 +74,10 @@
       "vendor": "Corretto",
       "major": 21,
       "image": "amazoncorretto:21",
-      "digest": "amazoncorretto@sha256:c568ffdb13330c2753d41c32639b52ae070a52658e0d7b17d2be09fdfac86afa",
+      "digest": "amazoncorretto@sha256:f9a740a8c4b33f8356490a533618dbd0f2a3e72442de309c73572d9b1e4b40fa",
       "java_version": "openjdk version \"21.0.13\" 2026-10-20 LTS",
       "java_arch": "amd64",
-      "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
+      "status": "FULL",
       "error": "",
       "blocklist": {
         "readable": true,
@@ -97,12 +94,9 @@
       },
       "static_policy": "48_FINGERPRINTS_AND_CHECKCERTS_EFFECTIVE_ROOTS",
       "checkcerts": {
-        "status": "ROOT_PRESENT",
-        "exit_code": 1,
-        "bad_roots": [
-          "BAD ROOT: CN=emSign ECC Root CA - G3,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN",
-          "BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN"
-        ]
+        "status": "ROOTS_ABSENT",
+        "exit_code": 0,
+        "source": "Oracle CheckCerts trust-manager method"
       },
       "compromisedca": {
         "status": "PASS",
@@ -111,7 +105,7 @@
         "inconclusive": 0,
         "exit_code": "0"
       },
-      "static_status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
+      "static_status": "FULL",
       "effective_status": "NOT_VERIFIED",
       "image_url": "https://hub.docker.com/_/amazoncorretto",
       "checkcerts_log": "evidence/Corretto-jdk21/checkcerts.log",
@@ -123,10 +117,10 @@
       "vendor": "Corretto",
       "major": 25,
       "image": "amazoncorretto:25",
-      "digest": "amazoncorretto@sha256:8806f69d6997672a37569da54378d13ff2cd613f9abb151c493f5a359a0a8676",
+      "digest": "amazoncorretto@sha256:b14190faff46c2ecd870fecd491b279e55a6e733822deb325023400bd0b3ee48",
       "java_version": "openjdk version \"25.0.5\" 2026-10-20 LTS",
       "java_arch": "amd64",
-      "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
+      "status": "FULL",
       "error": "",
       "blocklist": {
         "readable": true,
@@ -143,12 +137,9 @@
       },
       "static_policy": "48_FINGERPRINTS_AND_CHECKCERTS_EFFECTIVE_ROOTS",
       "checkcerts": {
-        "status": "ROOT_PRESENT",
-        "exit_code": 1,
-        "bad_roots": [
-          "BAD ROOT: CN=emSign ECC Root CA - G3,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN",
-          "BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN"
-        ]
+        "status": "ROOTS_ABSENT",
+        "exit_code": 0,
+        "source": "Oracle CheckCerts trust-manager method"
       },
       "compromisedca": {
         "status": "PASS",
@@ -157,7 +148,7 @@
         "inconclusive": 0,
         "exit_code": "0"
       },
-      "static_status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
+      "static_status": "FULL",
       "effective_status": "NOT_VERIFIED",
       "image_url": "https://hub.docker.com/_/amazoncorretto",
       "checkcerts_log": "evidence/Corretto-jdk25/checkcerts.log",
@@ -920,7 +911,7 @@
       "vendor": "Mandrel",
       "major": 25,
       "image": "quay.io/quarkus/ubi9-quarkus-mandrel-builder-image:jdk-25",
-      "digest": "quay.io/quarkus/ubi9-quarkus-mandrel-builder-image@sha256:6e0fe1ddc9efcf8dc1775c3016974db8d07124f805ba963495ec2bddb2d47349",
+      "digest": "quay.io/quarkus/ubi9-quarkus-mandrel-builder-image@sha256:4af907423955d43beb791ee247516e13128fc880b4e58f6a66171a90f850e1fb",
       "java_version": "openjdk version \"25.0.5\" 2026-10-20 LTS",
       "java_arch": "amd64",
       "status": "UNPATCHED",
@@ -1014,7 +1005,7 @@
       "vendor": "Microsoft",
       "major": 17,
       "image": "mcr.microsoft.com/openjdk/jdk:17-ubuntu",
-      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:19714fba16f608f6234d2de483fbab6d27e7b4d0a5ef286e6afd660d764a3433",
+      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:5194c4ae4fdf9343e5d099c527cd61ac0b2d651a8fab5f90aaafe0c956112417",
       "java_version": "openjdk version \"17.0.21.0.2\" 2026-10-22 LTS",
       "java_arch": "amd64",
       "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
@@ -1059,7 +1050,7 @@
       "vendor": "Microsoft",
       "major": 21,
       "image": "mcr.microsoft.com/openjdk/jdk:21-ubuntu",
-      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:71ca7d9ec1d116f5e421b3749a617184e54e9cdcfc72301760495d07fbb54a76",
+      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:ff8bbeeb6f1bc94d17b5acfe4222638199b36d4ea5283aed58fe47cd94506798",
       "java_version": "openjdk version \"21.0.13.0.2\" 2026-10-22 LTS",
       "java_arch": "amd64",
       "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
@@ -1104,7 +1095,7 @@
       "vendor": "Microsoft",
       "major": 25,
       "image": "mcr.microsoft.com/openjdk/jdk:25-ubuntu",
-      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:c9b2c1de3aa92dd19378f03cb0cc3d99d1a21ae022391939f8c843f4e2e93c57",
+      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:79290b254f37d79f3d33d68ff672cd62acff8380146c047a95fbc357b4b75e71",
       "java_version": "openjdk version \"25.0.5.0.2\" 2026-10-22 LTS",
       "java_arch": "amd64",
       "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
