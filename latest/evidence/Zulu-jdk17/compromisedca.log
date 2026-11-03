@@ -1,5 +1,5 @@
 17: Pulling from library/azul-zulu
-Digest: sha256:0747aed0ee1940c1b9934f88b48c175f185f259d5485e4cfa98fd56f3ec74c84
+Digest: sha256:556f5ff6e5d677766e59ac1b20021dcab13bfa6c293d8ad910b3b22e490bed79
 Status: Image is up to date for azul-zulu:17
 CONTROL OK
   peer subject=CN=dv-g3b-emudhra.we-have-a-problem.com SPKI=27A1F73E0E681CA0D5E8CB036A111944CEF09F1EE170A6F6DF0023B97B290A14

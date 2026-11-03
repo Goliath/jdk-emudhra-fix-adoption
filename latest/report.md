@@ -1,6 +1,6 @@
 # JDK eMudhra Security Audit
 
-Generated (UTC): `2026-11-02T21:21:05+00:00`
+Generated (UTC): `2026-11-03T21:17:01+00:00`
 
 SDKMAN supplies vendor names only; the audit runs Docker JDK 25 images. Static file checks, trust-manager checks, and live TLS tests are independent. Image tags can change between runs.
 
@@ -62,8 +62,8 @@ Uses a delegating Java trust manager to check twelve live certificate chains wit
 | Temurin | 17 - [eclipse-temurin:17-jdk](https://hub.docker.com/_/eclipse-temurin) | openjdk version "17.0.20.1" 2026-08-18 [amd64] | 0/48 | [ROOT_PRESENT](evidence/Temurin-jdk17/checkcerts.log) | [FAIL](evidence/Temurin-jdk17/compromisedca.log) |
 | Temurin | 21 - [eclipse-temurin:21-jdk](https://hub.docker.com/_/eclipse-temurin) | openjdk version "21.0.13" 2026-10-20 LTS [amd64] | 0/48 | [ROOT_PRESENT](evidence/Temurin-jdk21/checkcerts.log) | [PASS (12/12)](evidence/Temurin-jdk21/compromisedca.log) |
 | Temurin | 25 - [eclipse-temurin:25-jdk](https://hub.docker.com/_/eclipse-temurin) | openjdk version "25.0.5" 2026-10-20 LTS [amd64] | 0/48 | [ROOT_PRESENT](evidence/Temurin-jdk25/checkcerts.log) | [PASS (12/12)](evidence/Temurin-jdk25/compromisedca.log) |
-| Zulu | 17 - [azul-zulu:17](https://hub.docker.com/_/azul-zulu) | openjdk version "17.0.21" 2026-10-20 LTS [amd64] | 48/48 | [ROOT_PRESENT](evidence/Zulu-jdk17/checkcerts.log) | [PASS (12/12)](evidence/Zulu-jdk17/compromisedca.log) |
-| Zulu | 21 - [azul-zulu:21](https://hub.docker.com/_/azul-zulu) | openjdk version "21.0.13" 2026-10-20 LTS [amd64] | 48/48 | [ROOT_PRESENT](evidence/Zulu-jdk21/checkcerts.log) | [PASS (12/12)](evidence/Zulu-jdk21/compromisedca.log) |
-| Zulu | 25 - [azul-zulu:25](https://hub.docker.com/_/azul-zulu) | openjdk version "25.0.5" 2026-10-20 LTS [amd64] | 48/48 | [ROOT_PRESENT](evidence/Zulu-jdk25/checkcerts.log) | [PASS (12/12)](evidence/Zulu-jdk25/compromisedca.log) |
+| Zulu | 17 - [azul-zulu:17](https://hub.docker.com/_/azul-zulu) | openjdk version "17.0.21.0.3" 2026-10-24 LTS [amd64] | 48/48 | [ROOTS_ABSENT](evidence/Zulu-jdk17/checkcerts.log) | [PASS (12/12)](evidence/Zulu-jdk17/compromisedca.log) |
+| Zulu | 21 - [azul-zulu:21](https://hub.docker.com/_/azul-zulu) | openjdk version "21.0.13.0.3" 2026-10-24 LTS [amd64] | 48/48 | [ROOTS_ABSENT](evidence/Zulu-jdk21/checkcerts.log) | [PASS (12/12)](evidence/Zulu-jdk21/compromisedca.log) |
+| Zulu | 25 - [azul-zulu:25](https://hub.docker.com/_/azul-zulu) | openjdk version "25.0.5.0.3" 2026-10-24 LTS [amd64] | 48/48 | [ROOTS_ABSENT](evidence/Zulu-jdk25/checkcerts.log) | [PASS (12/12)](evidence/Zulu-jdk25/compromisedca.log) |
 
 [Download everything — complete report and vendor evidence (ZIP)](report-bundle.zip)
