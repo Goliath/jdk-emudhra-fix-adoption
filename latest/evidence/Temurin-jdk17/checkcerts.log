@@ -1,6 +1,5 @@
 17-jdk: Pulling from library/eclipse-temurin
-Digest: sha256:91011320978c10ec51d2cde1eb6f616db6d2a739a0e521096c343dd3fed9abe6
+Digest: sha256:43338b737d0f75d6883d3c4563bc66974113ca8ac296e82f39d161fb3d398f0d
 Status: Image is up to date for eclipse-temurin:17-jdk
-Java runtime version 17.0.20.1+1 at /opt/java/openjdk
-BAD ROOT: CN=emSign ECC Root CA - G3,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
+Java runtime version 17.0.21+9 at /opt/java/openjdk
 BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN

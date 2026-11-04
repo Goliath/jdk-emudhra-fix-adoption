@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-03T21:17:01+00:00",
+  "generated_utc": "2026-11-04T21:15:43+00:00",
   "source": "SDKMAN providers / Docker images",
   "majors": [
     17,
@@ -7,8 +7,8 @@
     25
   ],
   "counts": {
-    "PASS": 22,
-    "FAIL": 7,
+    "PASS": 23,
+    "FAIL": 6,
     "INCONCLUSIVE": 0,
     "NOT_TESTED": 0
   },
@@ -717,7 +717,7 @@
       "vendor": "Liberica NIK",
       "major": 17,
       "image": "bellsoft/hardened-liberica-native-image-kit-container:jdk-17-nik-23-glibc",
-      "digest": "bellsoft/hardened-liberica-native-image-kit-container@sha256:2da77c0e888648209d882217c19f78707f161b63d5d09cb2943509f0c76a1b56",
+      "digest": "bellsoft/hardened-liberica-native-image-kit-container@sha256:e0f07f0e5e26e99132fd5025750a9d3c09187bbec2cf00b1c516e431aa000f0c",
       "java_version": "openjdk version \"17.0.20.1\" 2026-08-18 LTS",
       "java_arch": "amd64",
       "status": "UNPATCHED",
@@ -814,7 +814,7 @@
       "vendor": "Liberica NIK",
       "major": 25,
       "image": "bellsoft/hardened-liberica-native-image-kit-container:jdk-25-nik-25-glibc",
-      "digest": "bellsoft/hardened-liberica-native-image-kit-container@sha256:2e6ebb7942fd714373156c00f0b17af05ba958736e651923fee568b089c639fd",
+      "digest": "bellsoft/hardened-liberica-native-image-kit-container@sha256:95537285448f46e9d3dc9e500660bbe4e83b54d589c422045cafb8437ae8c513",
       "java_version": "openjdk version \"25.0.4.1\" 2026-08-18 LTS",
       "java_arch": "amd64",
       "status": "UNPATCHED",
@@ -1005,7 +1005,7 @@
       "vendor": "Microsoft",
       "major": 17,
       "image": "mcr.microsoft.com/openjdk/jdk:17-ubuntu",
-      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:5194c4ae4fdf9343e5d099c527cd61ac0b2d651a8fab5f90aaafe0c956112417",
+      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:e4a8c72b11eae72b5b95bf0481207afe61f034601643312ab73e8a62f7b90906",
       "java_version": "openjdk version \"17.0.21.0.2\" 2026-10-22 LTS",
       "java_arch": "amd64",
       "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
@@ -1050,7 +1050,7 @@
       "vendor": "Microsoft",
       "major": 21,
       "image": "mcr.microsoft.com/openjdk/jdk:21-ubuntu",
-      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:ff8bbeeb6f1bc94d17b5acfe4222638199b36d4ea5283aed58fe47cd94506798",
+      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:f509c2eacc1d2c7126ff6cc87cdda4bba003381ccdf7a014f218e05b6beed81c",
       "java_version": "openjdk version \"21.0.13.0.2\" 2026-10-22 LTS",
       "java_arch": "amd64",
       "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
@@ -1095,7 +1095,7 @@
       "vendor": "Microsoft",
       "major": 25,
       "image": "mcr.microsoft.com/openjdk/jdk:25-ubuntu",
-      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:79290b254f37d79f3d33d68ff672cd62acff8380146c047a95fbc357b4b75e71",
+      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:9e7c3ba2316c7714c4c6e87a1da978f98e1cc5fb23d1a41ac1841426203b09d9",
       "java_version": "openjdk version \"25.0.5.0.2\" 2026-10-22 LTS",
       "java_arch": "amd64",
       "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
@@ -1404,8 +1404,8 @@
       "vendor": "Temurin",
       "major": 17,
       "image": "eclipse-temurin:17-jdk",
-      "digest": "eclipse-temurin@sha256:91011320978c10ec51d2cde1eb6f616db6d2a739a0e521096c343dd3fed9abe6",
-      "java_version": "openjdk version \"17.0.20.1\" 2026-08-18",
+      "digest": "eclipse-temurin@sha256:43338b737d0f75d6883d3c4563bc66974113ca8ac296e82f39d161fb3d398f0d",
+      "java_version": "openjdk version \"17.0.21\" 2026-10-20",
       "java_arch": "amd64",
       "status": "UNPATCHED",
       "error": "",
@@ -1476,16 +1476,15 @@
         "status": "ROOT_PRESENT",
         "exit_code": 1,
         "bad_roots": [
-          "BAD ROOT: CN=emSign ECC Root CA - G3,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN",
           "BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN"
         ]
       },
       "compromisedca": {
-        "status": "FAIL",
-        "rejected": 6,
-        "accepted": 6,
+        "status": "PASS",
+        "rejected": 12,
+        "accepted": 0,
         "inconclusive": 0,
-        "exit_code": "1"
+        "exit_code": "0"
       },
       "static_status": "UNPATCHED",
       "effective_status": "NOT_VERIFIED",
