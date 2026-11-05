@@ -1,5 +1,5 @@
 21: Pulling from library/azul-zulu
-Digest: sha256:baaa1f6dc7d0698c1db971c305e903233f4df6eb2879d70adffb9aeb270639f7
+Digest: sha256:5b72723373980a16cebf9f447a741599d3928f24dfa9ee09f199706ce85cc3d6
 Status: Image is up to date for azul-zulu:21
 Java runtime version 21.0.13.0.3+1-LTS at /usr/lib/jvm/zulu21-ca-amd64
 No bad root certificates found

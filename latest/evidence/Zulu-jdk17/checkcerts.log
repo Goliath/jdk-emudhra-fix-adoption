@@ -1,5 +1,5 @@
 17: Pulling from library/azul-zulu
-Digest: sha256:556f5ff6e5d677766e59ac1b20021dcab13bfa6c293d8ad910b3b22e490bed79
+Digest: sha256:34cd79153c7506a7e39b4c3a4e6a84a49582d7334cf392341c42bb23c4c16357
 Status: Image is up to date for azul-zulu:17
 Java runtime version 17.0.21.0.3+1-LTS at /usr/lib/jvm/zulu17-ca-amd64
 No bad root certificates found
