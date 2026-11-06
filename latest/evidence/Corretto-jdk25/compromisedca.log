@@ -1,5 +1,5 @@
 25: Pulling from library/amazoncorretto
-Digest: sha256:0b272790730914a822e19ccdb092e6f3059f4e405bb98327487c126ce63994a6
+Digest: sha256:019e58087ba4c114c817094f70d3d522bcd13e80ce9edbba6e1c67e5700bad63
 Status: Image is up to date for amazoncorretto:25
 CONTROL OK
   peer subject=CN=dv-g3b-emudhra.we-have-a-problem.com SPKI=27A1F73E0E681CA0D5E8CB036A111944CEF09F1EE170A6F6DF0023B97B290A14

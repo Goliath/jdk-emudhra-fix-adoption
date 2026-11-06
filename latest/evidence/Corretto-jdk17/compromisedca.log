@@ -1,5 +1,5 @@
 17: Pulling from library/amazoncorretto
-Digest: sha256:8cdda475a507307ac53f51db9b5a99055ce0e6402f4e092d587b224aa2a08da5
+Digest: sha256:b505ecf1fd737d85c0fd3930b8ab3ed0cb560326809aacc838b3938a9bc84c4b
 Status: Image is up to date for amazoncorretto:17
 CONTROL OK
   peer subject=CN=dv-g3b-emudhra.we-have-a-problem.com SPKI=27A1F73E0E681CA0D5E8CB036A111944CEF09F1EE170A6F6DF0023B97B290A14
