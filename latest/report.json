@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-06T21:15:32+00:00",
+  "generated_utc": "2026-11-07T21:15:34+00:00",
   "source": "SDKMAN providers / Docker images",
   "majors": [
     17,
@@ -1269,7 +1269,7 @@
       "vendor": "Semeru",
       "major": 17,
       "image": "icr.io/appcafe/ibm-semeru-runtimes:open-17-jdk-ubi",
-      "digest": "icr.io/appcafe/ibm-semeru-runtimes@sha256:cabe75cb438b12013e79f62d65207a1ceb472204c8c774484d67b77347942c40",
+      "digest": "icr.io/appcafe/ibm-semeru-runtimes@sha256:bbe0e11cafd8e8b479389361314d1ab70480c561e8b714e296374eb3f9ed774d",
       "java_version": "openjdk version \"17.0.21.0.3\" 2026-10-24",
       "java_arch": "amd64",
       "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
@@ -1314,7 +1314,7 @@
       "vendor": "Semeru",
       "major": 21,
       "image": "icr.io/appcafe/ibm-semeru-runtimes:open-21-jdk-ubi",
-      "digest": "icr.io/appcafe/ibm-semeru-runtimes@sha256:f7294710c2c94e25439cec3c4b9d17af8cd7454090201facfec9d71e5dc3532c",
+      "digest": "icr.io/appcafe/ibm-semeru-runtimes@sha256:e303d70111e03dae041e3294b9b2a952d3920a36a515a32216d4dcffd812c768",
       "java_version": "openjdk version \"21.0.13.0.3\" 2026-10-24 LTS",
       "java_arch": "amd64",
       "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
@@ -1359,7 +1359,7 @@
       "vendor": "Semeru",
       "major": 25,
       "image": "icr.io/appcafe/ibm-semeru-runtimes:open-25-jdk-ubi",
-      "digest": "icr.io/appcafe/ibm-semeru-runtimes@sha256:4b48730e6faa23c223466a23179e944cdaf76a56549af2decf2966d12a64cf84",
+      "digest": "icr.io/appcafe/ibm-semeru-runtimes@sha256:edd4b339342ab12099004d03ebd5c549a074187ed4de6be344b8c99065f0beea",
       "java_version": "openjdk version \"25.0.5.0.3\" 2026-10-24 LTS",
       "java_arch": "amd64",
       "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",

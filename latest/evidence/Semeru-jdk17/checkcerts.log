@@ -1,5 +1,5 @@
 open-17-jdk-ubi: Pulling from appcafe/ibm-semeru-runtimes
-Digest: sha256:cabe75cb438b12013e79f62d65207a1ceb472204c8c774484d67b77347942c40
+Digest: sha256:bbe0e11cafd8e8b479389361314d1ab70480c561e8b714e296374eb3f9ed774d
 Status: Image is up to date for icr.io/appcafe/ibm-semeru-runtimes:open-17-jdk-ubi
 Java runtime version 17.0.21.0.3+1 at /opt/java/openjdk
 BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN

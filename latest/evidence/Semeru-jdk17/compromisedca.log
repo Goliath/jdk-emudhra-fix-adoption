@@ -1,5 +1,5 @@
 open-17-jdk-ubi: Pulling from appcafe/ibm-semeru-runtimes
-Digest: sha256:cabe75cb438b12013e79f62d65207a1ceb472204c8c774484d67b77347942c40
+Digest: sha256:bbe0e11cafd8e8b479389361314d1ab70480c561e8b714e296374eb3f9ed774d
 Status: Image is up to date for icr.io/appcafe/ibm-semeru-runtimes:open-17-jdk-ubi
 CONTROL OK
   peer subject=CN=dv-g3b-emudhra.we-have-a-problem.com SPKI=27A1F73E0E681CA0D5E8CB036A111944CEF09F1EE170A6F6DF0023B97B290A14
