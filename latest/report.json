@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-07T21:15:34+00:00",
+  "generated_utc": "2026-11-08T21:16:07+00:00",
   "source": "SDKMAN providers / Docker images",
   "majors": [
     17,
@@ -911,7 +911,7 @@
       "vendor": "Mandrel",
       "major": 25,
       "image": "quay.io/quarkus/ubi9-quarkus-mandrel-builder-image:jdk-25",
-      "digest": "quay.io/quarkus/ubi9-quarkus-mandrel-builder-image@sha256:4af907423955d43beb791ee247516e13128fc880b4e58f6a66171a90f850e1fb",
+      "digest": "quay.io/quarkus/ubi9-quarkus-mandrel-builder-image@sha256:51015eb067f6dd03090473eab26cac1750cbae6dcc813e37179ad03eb7218e36",
       "java_version": "openjdk version \"25.0.5\" 2026-10-20 LTS",
       "java_arch": "amd64",
       "status": "UNPATCHED",
