@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-10T21:16:15+00:00",
+  "generated_utc": "2026-11-11T21:22:13+00:00",
   "source": "SDKMAN providers / Docker images",
   "majors": [
     17,
@@ -1005,7 +1005,7 @@
       "vendor": "Microsoft",
       "major": 17,
       "image": "mcr.microsoft.com/openjdk/jdk:17-ubuntu",
-      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:cb1f402e57a50f04b92999c029c455afe0f7fbe6d8f8550251808dd9d51f9060",
+      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:3698e08c0291032339efc08d903e56d3a597b0a9c9410166acc080f43607d274",
       "java_version": "openjdk version \"17.0.21.0.2\" 2026-10-22 LTS",
       "java_arch": "amd64",
       "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
@@ -1050,7 +1050,7 @@
       "vendor": "Microsoft",
       "major": 21,
       "image": "mcr.microsoft.com/openjdk/jdk:21-ubuntu",
-      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:b349e3835860a751aa0420473752d014184bfc53dc7ed161ca89cb6518e65029",
+      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:2423a931d2569450b8d594373792e69eeabdf240ae4c14964a6d67a1da6dac9e",
       "java_version": "openjdk version \"21.0.13.0.2\" 2026-10-22 LTS",
       "java_arch": "amd64",
       "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
@@ -1095,7 +1095,7 @@
       "vendor": "Microsoft",
       "major": 25,
       "image": "mcr.microsoft.com/openjdk/jdk:25-ubuntu",
-      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:f9c5358b03dcb27f539a9df18b1da26353dda8bf8b4b5de44a871f67a404bf7c",
+      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:dc137b2351cc6ad65077fdc7bfa2c674ab34263fee19795ad07c50e2d4d38b9b",
       "java_version": "openjdk version \"25.0.5.0.2\" 2026-10-22 LTS",
       "java_arch": "amd64",
       "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
