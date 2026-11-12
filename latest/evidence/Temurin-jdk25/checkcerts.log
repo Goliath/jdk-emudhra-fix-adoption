@@ -1,5 +1,5 @@
 25-jdk: Pulling from library/eclipse-temurin
-Digest: sha256:83f4a7fc27df94dcc7b8de04d14cbbba8da14406f921e966969c3b09000aa507
+Digest: sha256:b8705e936964c228dfce359e63dbf08f6c69cb380ed1d576b1f6b1064f15567d
 Status: Image is up to date for eclipse-temurin:25-jdk
 Java runtime version 25.0.5+8-LTS at /opt/java/openjdk
 BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN

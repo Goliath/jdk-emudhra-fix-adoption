@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-11T21:22:13+00:00",
+  "generated_utc": "2026-11-12T21:17:09+00:00",
   "source": "SDKMAN providers / Docker images",
   "majors": [
     17,
@@ -7,10 +7,10 @@
     25
   ],
   "counts": {
-    "PASS": 23,
+    "PASS": 22,
     "FAIL": 6,
     "INCONCLUSIVE": 0,
-    "NOT_TESTED": 0
+    "NOT_TESTED": 1
   },
   "status_descriptions": {
     "FULL": "All 48 hashes blocked; all four target roots absent.",
@@ -911,7 +911,7 @@
       "vendor": "Mandrel",
       "major": 25,
       "image": "quay.io/quarkus/ubi9-quarkus-mandrel-builder-image:jdk-25",
-      "digest": "quay.io/quarkus/ubi9-quarkus-mandrel-builder-image@sha256:51015eb067f6dd03090473eab26cac1750cbae6dcc813e37179ad03eb7218e36",
+      "digest": "quay.io/quarkus/ubi9-quarkus-mandrel-builder-image@sha256:c0ff31764f70469795db5513d674e4721fd8e7e761beddbff741ef5d84e79ed3",
       "java_version": "openjdk version \"25.0.5\" 2026-10-20 LTS",
       "java_arch": "amd64",
       "status": "UNPATCHED",
@@ -1140,7 +1140,7 @@
       "vendor": "SapMachine",
       "major": 17,
       "image": "ghcr.io/sap/sapmachine:17",
-      "digest": "ghcr.io/sap/sapmachine@sha256:42f2ab76fd3e85078b4ebed67c19ad74d4be6d736b568392a2018faa85e75419",
+      "digest": "ghcr.io/sap/sapmachine@sha256:79869dd73c040593f3315c72383f510bb6f2b04fc40b8ec7dfc8266fccc945b5",
       "java_version": "openjdk version \"17.0.21.0.3\" 2026-10-24 LTS",
       "java_arch": "amd64",
       "status": "FULL",
@@ -1183,7 +1183,7 @@
       "vendor": "SapMachine",
       "major": 21,
       "image": "ghcr.io/sap/sapmachine:21",
-      "digest": "ghcr.io/sap/sapmachine@sha256:78a959f4a9011d04f110e6c120e2b39fcd26a45d2bcfcccdc1dbdf6bb3f4535d",
+      "digest": "ghcr.io/sap/sapmachine@sha256:79953087d8a877742a33e942e5552d55cc9d031255ab1d3d9720b9e10497d206",
       "java_version": "openjdk version \"21.0.13.0.3\" 2026-10-24 LTS",
       "java_arch": "amd64",
       "status": "FULL",
@@ -1226,7 +1226,7 @@
       "vendor": "SapMachine",
       "major": 25,
       "image": "ghcr.io/sap/sapmachine:25",
-      "digest": "ghcr.io/sap/sapmachine@sha256:6e18630e44b41ee25129fb8328c2757ee3c4dc39618d8fb01389daa4e7213e2e",
+      "digest": "ghcr.io/sap/sapmachine@sha256:be3f506aecaf3c21b1458227a1976c07fdae1d2bd84f5ba1fb4d0026f329228b",
       "java_version": "openjdk version \"25.0.5.0.3\" 2026-10-24 LTS",
       "java_arch": "amd64",
       "status": "FULL",
@@ -1359,52 +1359,30 @@
       "vendor": "Semeru",
       "major": 25,
       "image": "icr.io/appcafe/ibm-semeru-runtimes:open-25-jdk-ubi",
-      "digest": "icr.io/appcafe/ibm-semeru-runtimes@sha256:edd4b339342ab12099004d03ebd5c549a074187ed4de6be344b8c99065f0beea",
-      "java_version": "openjdk version \"25.0.5.0.3\" 2026-10-24 LTS",
-      "java_arch": "amd64",
-      "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
-      "error": "",
-      "blocklist": {
-        "readable": true,
-        "header_ok": true,
-        "matched": 48,
-        "canonical_matched": 16,
-        "total": 48,
-        "missing": [],
-        "file_sha256": "2596bb6dda83c66d96c5a252d7b2ae1f24cc1ae3f1890223b4f3591a8d52bf10"
-      },
+      "digest": "",
+      "java_version": "",
+      "java_arch": "",
+      "status": "PULL_FAILED",
+      "error": "Error response from daemon: failed to resolve reference \"icr.io/appcafe/ibm-semeru-runtimes:open-25-jdk-ubi\": failed to do request: Head \"https://icr.io/v2/appcafe/ibm-semeru-runtimes/manifests/open-25-jdk-ubi\": dial tcp 169.62.37.246:443: i/o timeout",
+      "blocklist": null,
       "functional": {
         "status": "NOT_TESTED",
         "reason": "No controlled certificate-chain test configured"
       },
-      "static_policy": "48_FINGERPRINTS_AND_CHECKCERTS_EFFECTIVE_ROOTS",
+      "static_policy": "48_FINGERPRINTS_AND_4_ROOT_SUBJECTS",
+      "image_url": "https://icr.io/appcafe/ibm-semeru-runtimes",
       "checkcerts": {
-        "status": "ROOT_PRESENT",
-        "exit_code": 1,
-        "bad_roots": [
-          "BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN"
-        ]
+        "status": "NOT_TESTED"
       },
       "compromisedca": {
-        "status": "PASS",
-        "rejected": 12,
-        "accepted": 0,
-        "inconclusive": 0,
-        "exit_code": "0"
-      },
-      "static_status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
-      "effective_status": "NOT_VERIFIED",
-      "image_url": "https://icr.io/appcafe/ibm-semeru-runtimes",
-      "checkcerts_log": "evidence/Semeru-jdk25/checkcerts.log",
-      "checkcerts_exit": "evidence/Semeru-jdk25/checkcerts.exit",
-      "compromisedca_log": "evidence/Semeru-jdk25/compromisedca.log",
-      "compromisedca_exit": "evidence/Semeru-jdk25/compromisedca.exit"
+        "status": "NOT_TESTED"
+      }
     },
     {
       "vendor": "Temurin",
       "major": 17,
       "image": "eclipse-temurin:17-jdk",
-      "digest": "eclipse-temurin@sha256:43338b737d0f75d6883d3c4563bc66974113ca8ac296e82f39d161fb3d398f0d",
+      "digest": "eclipse-temurin@sha256:5465815640e10433422217335e15a523a3e57021a1f2ae0fc3849380d237979f",
       "java_version": "openjdk version \"17.0.21\" 2026-10-20",
       "java_arch": "amd64",
       "status": "UNPATCHED",
@@ -1498,7 +1476,7 @@
       "vendor": "Temurin",
       "major": 21,
       "image": "eclipse-temurin:21-jdk",
-      "digest": "eclipse-temurin@sha256:ebfbb18d11ff163ee83b21258acf12248af48d22a0fdfdc68fa1a1516c05976a",
+      "digest": "eclipse-temurin@sha256:0a3f329821dcadf54b2a3033a15e2e9f007069a9db43d7f51897e6b80e726b07",
       "java_version": "openjdk version \"21.0.13\" 2026-10-20 LTS",
       "java_arch": "amd64",
       "status": "UNPATCHED",
@@ -1592,7 +1570,7 @@
       "vendor": "Temurin",
       "major": 25,
       "image": "eclipse-temurin:25-jdk",
-      "digest": "eclipse-temurin@sha256:83f4a7fc27df94dcc7b8de04d14cbbba8da14406f921e966969c3b09000aa507",
+      "digest": "eclipse-temurin@sha256:b8705e936964c228dfce359e63dbf08f6c69cb380ed1d576b1f6b1064f15567d",
       "java_version": "openjdk version \"25.0.5\" 2026-10-20 LTS",
       "java_arch": "amd64",
       "status": "UNPATCHED",

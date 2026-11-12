@@ -1,5 +1,5 @@
 17: Pulling from sap/sapmachine
-Digest: sha256:42f2ab76fd3e85078b4ebed67c19ad74d4be6d736b568392a2018faa85e75419
+Digest: sha256:79869dd73c040593f3315c72383f510bb6f2b04fc40b8ec7dfc8266fccc945b5
 Status: Image is up to date for ghcr.io/sap/sapmachine:17
 Java runtime version 17.0.21.0.3+1-LTS at /usr/lib/jvm/sapmachine-17
 No bad root certificates found
