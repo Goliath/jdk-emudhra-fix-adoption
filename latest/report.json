@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-12T21:17:09+00:00",
+  "generated_utc": "2026-11-13T21:16:21+00:00",
   "source": "SDKMAN providers / Docker images",
   "majors": [
     17,
@@ -7,10 +7,10 @@
     25
   ],
   "counts": {
-    "PASS": 22,
+    "PASS": 23,
     "FAIL": 6,
     "INCONCLUSIVE": 0,
-    "NOT_TESTED": 1
+    "NOT_TESTED": 0
   },
   "status_descriptions": {
     "FULL": "All 48 hashes blocked; all four target roots absent.",
@@ -1005,7 +1005,7 @@
       "vendor": "Microsoft",
       "major": 17,
       "image": "mcr.microsoft.com/openjdk/jdk:17-ubuntu",
-      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:3698e08c0291032339efc08d903e56d3a597b0a9c9410166acc080f43607d274",
+      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:d8365416e9bcd92c1111b906405266e80ac92c31d1890f290770a208288f1761",
       "java_version": "openjdk version \"17.0.21.0.2\" 2026-10-22 LTS",
       "java_arch": "amd64",
       "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
@@ -1050,7 +1050,7 @@
       "vendor": "Microsoft",
       "major": 21,
       "image": "mcr.microsoft.com/openjdk/jdk:21-ubuntu",
-      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:2423a931d2569450b8d594373792e69eeabdf240ae4c14964a6d67a1da6dac9e",
+      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:7c9844ac7bb9b3e9ecc7cb84b80216f07a8b2485817d22201c5b200f9cf31e90",
       "java_version": "openjdk version \"21.0.13.0.2\" 2026-10-22 LTS",
       "java_arch": "amd64",
       "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
@@ -1095,7 +1095,7 @@
       "vendor": "Microsoft",
       "major": 25,
       "image": "mcr.microsoft.com/openjdk/jdk:25-ubuntu",
-      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:dc137b2351cc6ad65077fdc7bfa2c674ab34263fee19795ad07c50e2d4d38b9b",
+      "digest": "mcr.microsoft.com/openjdk/jdk@sha256:e44627352765d784122e6b43d756c381f9b04cdb2ce32f8ee808818d587c1cf8",
       "java_version": "openjdk version \"25.0.5.0.2\" 2026-10-22 LTS",
       "java_arch": "amd64",
       "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
@@ -1359,24 +1359,46 @@
       "vendor": "Semeru",
       "major": 25,
       "image": "icr.io/appcafe/ibm-semeru-runtimes:open-25-jdk-ubi",
-      "digest": "",
-      "java_version": "",
-      "java_arch": "",
-      "status": "PULL_FAILED",
-      "error": "Error response from daemon: failed to resolve reference \"icr.io/appcafe/ibm-semeru-runtimes:open-25-jdk-ubi\": failed to do request: Head \"https://icr.io/v2/appcafe/ibm-semeru-runtimes/manifests/open-25-jdk-ubi\": dial tcp 169.62.37.246:443: i/o timeout",
-      "blocklist": null,
+      "digest": "icr.io/appcafe/ibm-semeru-runtimes@sha256:edd4b339342ab12099004d03ebd5c549a074187ed4de6be344b8c99065f0beea",
+      "java_version": "openjdk version \"25.0.5.0.3\" 2026-10-24 LTS",
+      "java_arch": "amd64",
+      "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
+      "error": "",
+      "blocklist": {
+        "readable": true,
+        "header_ok": true,
+        "matched": 48,
+        "canonical_matched": 16,
+        "total": 48,
+        "missing": [],
+        "file_sha256": "2596bb6dda83c66d96c5a252d7b2ae1f24cc1ae3f1890223b4f3591a8d52bf10"
+      },
       "functional": {
         "status": "NOT_TESTED",
         "reason": "No controlled certificate-chain test configured"
       },
-      "static_policy": "48_FINGERPRINTS_AND_4_ROOT_SUBJECTS",
-      "image_url": "https://icr.io/appcafe/ibm-semeru-runtimes",
+      "static_policy": "48_FINGERPRINTS_AND_CHECKCERTS_EFFECTIVE_ROOTS",
       "checkcerts": {
-        "status": "NOT_TESTED"
+        "status": "ROOT_PRESENT",
+        "exit_code": 1,
+        "bad_roots": [
+          "BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN"
+        ]
       },
       "compromisedca": {
-        "status": "NOT_TESTED"
-      }
+        "status": "PASS",
+        "rejected": 12,
+        "accepted": 0,
+        "inconclusive": 0,
+        "exit_code": "0"
+      },
+      "static_status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
+      "effective_status": "NOT_VERIFIED",
+      "image_url": "https://icr.io/appcafe/ibm-semeru-runtimes",
+      "checkcerts_log": "evidence/Semeru-jdk25/checkcerts.log",
+      "checkcerts_exit": "evidence/Semeru-jdk25/checkcerts.exit",
+      "compromisedca_log": "evidence/Semeru-jdk25/compromisedca.log",
+      "compromisedca_exit": "evidence/Semeru-jdk25/compromisedca.exit"
     },
     {
       "vendor": "Temurin",
