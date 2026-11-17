@@ -1,8 +1,5 @@
 jdk-17-nik-23-glibc: Pulling from bellsoft/hardened-liberica-native-image-kit-container
-Digest: sha256:e0f07f0e5e26e99132fd5025750a9d3c09187bbec2cf00b1c516e431aa000f0c
+Digest: sha256:809fb0cc376a61fdf921c3fd2db1a35a8deb84109d5625100ca8c3684bdb9cca
 Status: Image is up to date for bellsoft/hardened-liberica-native-image-kit-container:jdk-17-nik-23-glibc
-Java runtime version 17.0.20.1+2-LTS at /usr/lib/jvm/liberica-nik-23-17
-BAD ROOT: CN=emSign ECC Root CA - G3,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
-BAD ROOT: CN=AAA Certificate Services,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB
-BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
-BAD ROOT: CN=emSign Root CA - G2,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
+Java runtime version 17.0.21.0.3+6-LTS at /usr/lib/jvm/liberica-nik-23-17
+No bad root certificates found

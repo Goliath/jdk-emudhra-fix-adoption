@@ -1,5 +1,5 @@
 21: Pulling from library/amazoncorretto
-Digest: sha256:90100f194336ef2326f5efe1ee747395fd87d8210ad6d60463196aa0c4b0ad4e
+Digest: sha256:3f2da8fd79b0a7275506eb5a828a62dae7eaa984a6a1b0542a897a85cf74baa7
 Status: Image is up to date for amazoncorretto:21
 Java runtime version 21.0.13+11-LTS at /usr/lib/jvm/java-21-amazon-corretto.x86_64
 No bad root certificates found

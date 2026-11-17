@@ -1,5 +1,5 @@
 25: Pulling from graalvm/jdk
-Digest: sha256:d98f0449a0e34204ed11186bc8e91305eca8e5f2dddb29e57deff7c6d42bd0e8
+Digest: sha256:5da7756294093745ecd51e711bd50b1813a1d2906db09792d8fe447bf735c71d
 Status: Image is up to date for container-registry.oracle.com/graalvm/jdk:25
 CONTROL OK
   peer subject=CN=dv-g3b-emudhra.we-have-a-problem.com SPKI=27A1F73E0E681CA0D5E8CB036A111944CEF09F1EE170A6F6DF0023B97B290A14
