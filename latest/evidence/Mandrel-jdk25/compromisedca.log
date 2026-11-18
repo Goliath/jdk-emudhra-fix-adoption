@@ -1,6 +1,7 @@
 jdk-25: Pulling from quarkus/ubi9-quarkus-mandrel-builder-image
-Digest: sha256:38f943afcae3218771546a99b41156dd3efa8315483eaf74f88f33d232bb3c8d
+Digest: sha256:814579d0cad736f838e737e6a6ea32e26f613155616d04b1434b00ce1da2319d
 Status: Image is up to date for quay.io/quarkus/ubi9-quarkus-mandrel-builder-image:jdk-25
+Picked up JAVA_TOOL_OPTIONS: -XX:-UseBASE64Intrinsics
 CONTROL OK
   peer subject=CN=dv-g3b-emudhra.we-have-a-problem.com SPKI=27A1F73E0E681CA0D5E8CB036A111944CEF09F1EE170A6F6DF0023B97B290A14
   peer subject=CN=EM DV TLS CA - G3B, O=eMudhra BV, C=NL SPKI=EBED6475C2C2D80FCB199F3FE8DD6E6B3CE60B77EB15D4E42C3DEC0C6F5B5105
