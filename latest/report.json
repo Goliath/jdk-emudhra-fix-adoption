@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-18T21:17:37+00:00",
+  "generated_utc": "2026-11-19T21:17:10+00:00",
   "source": "SDKMAN providers / Docker images",
   "majors": [
     17,
@@ -7,10 +7,10 @@
     25
   ],
   "counts": {
-    "PASS": 24,
+    "PASS": 25,
     "FAIL": 4,
     "INCONCLUSIVE": 0,
-    "NOT_TESTED": 1
+    "NOT_TESTED": 0
   },
   "status_descriptions": {
     "FULL": "All 48 hashes blocked; all four target roots absent.",
@@ -31,7 +31,7 @@
       "vendor": "Corretto",
       "major": 17,
       "image": "amazoncorretto:17",
-      "digest": "amazoncorretto@sha256:9f2fde515fa060e6218b680d0f5045940d915af43af266145586344bddb30320",
+      "digest": "amazoncorretto@sha256:17b4903d0849e3943762411b4601fa7bffed96cf9be5d43f4629a72e3c7e3166",
       "java_version": "openjdk version \"17.0.21.1\" 2026-11-17 LTS",
       "java_arch": "amd64",
       "status": "FULL",
@@ -74,7 +74,7 @@
       "vendor": "Corretto",
       "major": 21,
       "image": "amazoncorretto:21",
-      "digest": "amazoncorretto@sha256:3284a05cb82e9bceb4857f9d70788a6f72681d9070b550ae5f477b5e3dc81a5c",
+      "digest": "amazoncorretto@sha256:a02f509af88bd1544d5bb42be83a20d9022dc15f388a0007e2c7d0d87170b9f4",
       "java_version": "openjdk version \"21.0.13.1\" 2026-11-17 LTS",
       "java_arch": "amd64",
       "status": "FULL",
@@ -117,7 +117,7 @@
       "vendor": "Corretto",
       "major": 25,
       "image": "amazoncorretto:25",
-      "digest": "amazoncorretto@sha256:8b82be5adeabd374f5438e90635a120868e07ea8e85be6b691eb1c994d53f1e2",
+      "digest": "amazoncorretto@sha256:288b5647146a21027688b52cc23d802ee6badb6f28632111b606b79262d9fc5f",
       "java_version": "openjdk version \"25.0.5.1\" 2026-11-17 LTS",
       "java_arch": "amd64",
       "status": "FULL",
@@ -588,8 +588,8 @@
       "vendor": "Liberica",
       "major": 17,
       "image": "bellsoft/liberica-openjdk-debian:17",
-      "digest": "bellsoft/liberica-openjdk-debian@sha256:d00a03239a5fbf3992cfca2d6667eaa0d13713c0ba449a81a5f6e8cb4ff8be51",
-      "java_version": "openjdk version \"17.0.21.0.3\" 2026-10-24 LTS",
+      "digest": "bellsoft/liberica-openjdk-debian@sha256:c7cc45560871825669ec582b0ee52b8e49f8a4895c66b70c46f7ccf53d02d5d1",
+      "java_version": "openjdk version \"17.0.21.1\" 2026-11-17 LTS",
       "java_arch": "amd64",
       "status": "FULL",
       "error": "",
@@ -631,8 +631,8 @@
       "vendor": "Liberica",
       "major": 21,
       "image": "bellsoft/liberica-openjdk-debian:21",
-      "digest": "bellsoft/liberica-openjdk-debian@sha256:5b02c73e1d01a9feb1a4c991023c3b301bcd4cd561519ec063ebbfb985f6c94f",
-      "java_version": "openjdk version \"21.0.13.0.3\" 2026-10-24 LTS",
+      "digest": "bellsoft/liberica-openjdk-debian@sha256:65546304d372ec27d9f64f48bf7cd5b9b4320d54ee10ff9461dd2cd9e7f5f533",
+      "java_version": "openjdk version \"21.0.13.1\" 2026-11-17 LTS",
       "java_arch": "amd64",
       "status": "FULL",
       "error": "",
@@ -674,8 +674,8 @@
       "vendor": "Liberica",
       "major": 25,
       "image": "bellsoft/liberica-openjdk-debian:25",
-      "digest": "bellsoft/liberica-openjdk-debian@sha256:4069447d6cb6dec202028dc16c2d93bb73a27a43c438139e429069b361272312",
-      "java_version": "openjdk version \"25.0.5.0.3\" 2026-10-24 LTS",
+      "digest": "bellsoft/liberica-openjdk-debian@sha256:bb06a2d0275190808b71ea080a81c2629c4927c422953427ef73cdec648c2a5b",
+      "java_version": "openjdk version \"25.0.5.1\" 2026-11-17 LTS",
       "java_arch": "amd64",
       "status": "FULL",
       "error": "",
@@ -717,7 +717,7 @@
       "vendor": "Liberica NIK",
       "major": 17,
       "image": "bellsoft/hardened-liberica-native-image-kit-container:jdk-17-nik-23-glibc",
-      "digest": "bellsoft/hardened-liberica-native-image-kit-container@sha256:809fb0cc376a61fdf921c3fd2db1a35a8deb84109d5625100ca8c3684bdb9cca",
+      "digest": "bellsoft/hardened-liberica-native-image-kit-container@sha256:53a1857fbfc773cd1f3670593a575263437fc7118739161561e883f2442a8059",
       "java_version": "openjdk version \"17.0.21.0.3\" 2026-10-24 LTS",
       "java_arch": "amd64",
       "status": "FULL",
@@ -1206,24 +1206,46 @@
       "vendor": "Semeru",
       "major": 21,
       "image": "icr.io/appcafe/ibm-semeru-runtimes:open-21-jdk-ubi",
-      "digest": "",
-      "java_version": "",
-      "java_arch": "",
-      "status": "PULL_FAILED",
-      "error": "Error response from daemon: failed to resolve reference \"icr.io/appcafe/ibm-semeru-runtimes:open-21-jdk-ubi\": failed to do request: Head \"https://icr.io/v2/appcafe/ibm-semeru-runtimes/manifests/open-21-jdk-ubi\": dial tcp 169.63.104.236:443: i/o timeout",
-      "blocklist": null,
+      "digest": "icr.io/appcafe/ibm-semeru-runtimes@sha256:e303d70111e03dae041e3294b9b2a952d3920a36a515a32216d4dcffd812c768",
+      "java_version": "openjdk version \"21.0.13.0.3\" 2026-10-24 LTS",
+      "java_arch": "amd64",
+      "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
+      "error": "",
+      "blocklist": {
+        "readable": true,
+        "header_ok": true,
+        "matched": 48,
+        "canonical_matched": 16,
+        "total": 48,
+        "missing": [],
+        "file_sha256": "2596bb6dda83c66d96c5a252d7b2ae1f24cc1ae3f1890223b4f3591a8d52bf10"
+      },
       "functional": {
         "status": "NOT_TESTED",
         "reason": "No controlled certificate-chain test configured"
       },
-      "static_policy": "48_FINGERPRINTS_AND_4_ROOT_SUBJECTS",
-      "image_url": "https://icr.io/appcafe/ibm-semeru-runtimes",
+      "static_policy": "48_FINGERPRINTS_AND_CHECKCERTS_EFFECTIVE_ROOTS",
       "checkcerts": {
-        "status": "NOT_TESTED"
+        "status": "ROOT_PRESENT",
+        "exit_code": 1,
+        "bad_roots": [
+          "BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN"
+        ]
       },
       "compromisedca": {
-        "status": "NOT_TESTED"
-      }
+        "status": "PASS",
+        "rejected": 12,
+        "accepted": 0,
+        "inconclusive": 0,
+        "exit_code": "0"
+      },
+      "static_status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
+      "effective_status": "NOT_VERIFIED",
+      "image_url": "https://icr.io/appcafe/ibm-semeru-runtimes",
+      "checkcerts_log": "evidence/Semeru-jdk21/checkcerts.log",
+      "checkcerts_exit": "evidence/Semeru-jdk21/checkcerts.exit",
+      "compromisedca_log": "evidence/Semeru-jdk21/compromisedca.log",
+      "compromisedca_exit": "evidence/Semeru-jdk21/compromisedca.exit"
     },
     {
       "vendor": "Semeru",

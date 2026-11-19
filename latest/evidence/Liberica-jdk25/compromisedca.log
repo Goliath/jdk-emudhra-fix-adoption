@@ -1,5 +1,5 @@
 25: Pulling from bellsoft/liberica-openjdk-debian
-Digest: sha256:4069447d6cb6dec202028dc16c2d93bb73a27a43c438139e429069b361272312
+Digest: sha256:bb06a2d0275190808b71ea080a81c2629c4927c422953427ef73cdec648c2a5b
 Status: Image is up to date for bellsoft/liberica-openjdk-debian:25
 CONTROL OK
   peer subject=CN=dv-g3b-emudhra.we-have-a-problem.com SPKI=27A1F73E0E681CA0D5E8CB036A111944CEF09F1EE170A6F6DF0023B97B290A14

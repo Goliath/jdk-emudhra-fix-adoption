@@ -1,5 +1,5 @@
 25: Pulling from bellsoft/liberica-openjdk-debian
-Digest: sha256:4069447d6cb6dec202028dc16c2d93bb73a27a43c438139e429069b361272312
+Digest: sha256:bb06a2d0275190808b71ea080a81c2629c4927c422953427ef73cdec648c2a5b
 Status: Image is up to date for bellsoft/liberica-openjdk-debian:25
-Java runtime version 25.0.5.0.3+5-LTS at /usr/lib/jvm/jdk-25.0.5.0.3-bellsoft-x86_64
+Java runtime version 25.0.5.1+5-LTS at /usr/lib/jvm/jdk-25.0.5.1-bellsoft-x86_64
 No bad root certificates found
