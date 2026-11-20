@@ -1,5 +1,5 @@
 jdk-25-nik-25-glibc: Pulling from bellsoft/hardened-liberica-native-image-kit-container
-Digest: sha256:ed57d282230f5bcbccb5127f459e0328fcb15e598330bbbfa0b96ddc13c9b933
+Digest: sha256:b172af35c96dc4dde9d186c3615a4649775292c0a03f123e802512d4faa599e1
 Status: Image is up to date for bellsoft/hardened-liberica-native-image-kit-container:jdk-25-nik-25-glibc
 Java runtime version 25.0.5.0.3+6-LTS at /usr/lib/jvm/liberica-nik-25-25
 No bad root certificates found

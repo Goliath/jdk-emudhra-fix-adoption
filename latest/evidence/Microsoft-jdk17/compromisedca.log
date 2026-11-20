@@ -1,5 +1,5 @@
 17-ubuntu: Pulling from openjdk/jdk
-Digest: sha256:3f6843252b9c884668eb906aa76c146926ac15395c2523b3dde92994d0780e5c
+Digest: sha256:b6306560b8658f9e2dc5a14c4e23d7e8e34f199ec8db4f39cf6e66284424b35f
 Status: Image is up to date for mcr.microsoft.com/openjdk/jdk:17-ubuntu
 CONTROL OK
   peer subject=CN=dv-g3b-emudhra.we-have-a-problem.com SPKI=27A1F73E0E681CA0D5E8CB036A111944CEF09F1EE170A6F6DF0023B97B290A14
