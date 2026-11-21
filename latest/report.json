@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-20T21:16:57+00:00",
+  "generated_utc": "2026-11-21T21:16:27+00:00",
   "source": "SDKMAN providers / Docker images",
   "majors": [
     17,
@@ -717,7 +717,7 @@
       "vendor": "Liberica NIK",
       "major": 17,
       "image": "bellsoft/hardened-liberica-native-image-kit-container:jdk-17-nik-23-glibc",
-      "digest": "bellsoft/hardened-liberica-native-image-kit-container@sha256:53a1857fbfc773cd1f3670593a575263437fc7118739161561e883f2442a8059",
+      "digest": "bellsoft/hardened-liberica-native-image-kit-container@sha256:b672489730e799765baa826f9586d549a98b28116f8a138a23bc7504c06d3522",
       "java_version": "openjdk version \"17.0.21.0.3\" 2026-10-24 LTS",
       "java_arch": "amd64",
       "status": "FULL",
@@ -760,7 +760,7 @@
       "vendor": "Liberica NIK",
       "major": 25,
       "image": "bellsoft/hardened-liberica-native-image-kit-container:jdk-25-nik-25-glibc",
-      "digest": "bellsoft/hardened-liberica-native-image-kit-container@sha256:b172af35c96dc4dde9d186c3615a4649775292c0a03f123e802512d4faa599e1",
+      "digest": "bellsoft/hardened-liberica-native-image-kit-container@sha256:ed1888f7b1de9088a0d31ae2d1cf5203e1dba09c2c97fb99bc926f08e782fb73",
       "java_version": "openjdk version \"25.0.5.0.3\" 2026-10-24 LTS",
       "java_arch": "amd64",
       "status": "FULL",
