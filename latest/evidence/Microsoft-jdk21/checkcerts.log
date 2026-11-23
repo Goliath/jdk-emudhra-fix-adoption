@@ -1,5 +1,5 @@
 21-ubuntu: Pulling from openjdk/jdk
-Digest: sha256:e6afbe9013b484e43c51b087a605b77a5bcec69ce5cda35f32478de91fc36986
+Digest: sha256:c72d25bc8c7c8139d96fc80eedc873d40abca9d611291447a9c0cda4f33b15d2
 Status: Image is up to date for mcr.microsoft.com/openjdk/jdk:21-ubuntu
 Java runtime version 21.0.13.1+2-LTS at /usr/lib/jvm/msopenjdk-21-amd64
 BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN

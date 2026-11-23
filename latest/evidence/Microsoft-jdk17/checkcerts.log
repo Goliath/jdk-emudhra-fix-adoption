@@ -1,5 +1,5 @@
 17-ubuntu: Pulling from openjdk/jdk
-Digest: sha256:b6306560b8658f9e2dc5a14c4e23d7e8e34f199ec8db4f39cf6e66284424b35f
+Digest: sha256:c2af5dffc9ff85cf36661524cf98961d2749e21e9ee8807409e5889ed73797a0
 Status: Image is up to date for mcr.microsoft.com/openjdk/jdk:17-ubuntu
 Java runtime version 17.0.21.1+2-LTS at /usr/lib/jvm/msopenjdk-17-amd64
 BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN
