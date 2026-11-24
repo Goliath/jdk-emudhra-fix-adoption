@@ -1,6 +1,6 @@
 # JDK eMudhra Security Audit
 
-Generated (UTC): `2026-11-23T21:17:01+00:00`
+Generated (UTC): `2026-11-24T21:17:25+00:00`
 
 SDKMAN supplies vendor names only; the audit runs Docker JDK 25 images. Static file checks, trust-manager checks, and live TLS tests are independent. Image tags can change between runs.
 
@@ -56,7 +56,7 @@ Uses a delegating Java trust manager to check twelve live certificate chains wit
 | SapMachine | 17 - [ghcr.io/sap/sapmachine:17](https://github.com/sap/sapmachine) | openjdk version "17.0.21.1" 2026-11-17 LTS [amd64] | 48/48 | [ROOTS_ABSENT](evidence/SapMachine-jdk17/checkcerts.log) | [PASS (12/12)](evidence/SapMachine-jdk17/compromisedca.log) |
 | SapMachine | 21 - [ghcr.io/sap/sapmachine:21](https://github.com/sap/sapmachine) | openjdk version "21.0.13.1" 2026-11-17 LTS [amd64] | 48/48 | [ROOTS_ABSENT](evidence/SapMachine-jdk21/checkcerts.log) | [PASS (12/12)](evidence/SapMachine-jdk21/compromisedca.log) |
 | SapMachine | 25 - [ghcr.io/sap/sapmachine:25](https://github.com/sap/sapmachine) | openjdk version "25.0.5.1" 2026-11-17 LTS [amd64] | 48/48 | [ROOTS_ABSENT](evidence/SapMachine-jdk25/checkcerts.log) | [PASS (12/12)](evidence/SapMachine-jdk25/compromisedca.log) |
-| Semeru | 17 - [icr.io/appcafe/ibm-semeru-runtimes:open-17-jdk-ubi](https://icr.io/appcafe/ibm-semeru-runtimes) | — | N/D | NOT_TESTED | NOT_TESTED |
+| Semeru | 17 - [icr.io/appcafe/ibm-semeru-runtimes:open-17-jdk-ubi](https://icr.io/appcafe/ibm-semeru-runtimes) | openjdk version "17.0.21.0.3" 2026-10-24 [amd64] | 48/48 | [ROOT_PRESENT](evidence/Semeru-jdk17/checkcerts.log) | [PASS (12/12)](evidence/Semeru-jdk17/compromisedca.log) |
 | Semeru | 21 - [icr.io/appcafe/ibm-semeru-runtimes:open-21-jdk-ubi](https://icr.io/appcafe/ibm-semeru-runtimes) | openjdk version "21.0.13.0.3" 2026-10-24 LTS [amd64] | 48/48 | [ROOT_PRESENT](evidence/Semeru-jdk21/checkcerts.log) | [PASS (12/12)](evidence/Semeru-jdk21/compromisedca.log) |
 | Semeru | 25 - [icr.io/appcafe/ibm-semeru-runtimes:open-25-jdk-ubi](https://icr.io/appcafe/ibm-semeru-runtimes) | openjdk version "25.0.5.0.3" 2026-10-24 LTS [amd64] | 48/48 | [ROOT_PRESENT](evidence/Semeru-jdk25/checkcerts.log) | [PASS (12/12)](evidence/Semeru-jdk25/compromisedca.log) |
 | Temurin | 17 - [eclipse-temurin:17-jdk](https://hub.docker.com/_/eclipse-temurin) | openjdk version "17.0.21.1" 2026-11-17 [amd64] | 48/48 | [ROOT_PRESENT](evidence/Temurin-jdk17/checkcerts.log) | [PASS (12/12)](evidence/Temurin-jdk17/compromisedca.log) |

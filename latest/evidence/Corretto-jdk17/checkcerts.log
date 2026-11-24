@@ -1,5 +1,5 @@
 17: Pulling from library/amazoncorretto
-Digest: sha256:17b4903d0849e3943762411b4601fa7bffed96cf9be5d43f4629a72e3c7e3166
+Digest: sha256:335231cadb7eee6f92303e91461b73282fb4c5fb7c02fe23d45c547730a451c1
 Status: Image is up to date for amazoncorretto:17
 Java runtime version 17.0.21.1+2-LTS at /usr/lib/jvm/java-17-amazon-corretto.x86_64
 No bad root certificates found

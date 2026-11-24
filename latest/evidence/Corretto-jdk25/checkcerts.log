@@ -1,5 +1,5 @@
 25: Pulling from library/amazoncorretto
-Digest: sha256:288b5647146a21027688b52cc23d802ee6badb6f28632111b606b79262d9fc5f
+Digest: sha256:d4b9047349107b5c5a3c67f89853c48a83d4c769d4196a03f675a4c365737f7b
 Status: Image is up to date for amazoncorretto:25
 Java runtime version 25.0.5.1+2-LTS at /usr/lib/jvm/java-25-amazon-corretto.x86_64
 No bad root certificates found

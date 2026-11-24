@@ -1,5 +1,5 @@
 25: Pulling from library/azul-zulu
-Digest: sha256:6e688994387052ff293aee39ff306684134ed868e6167fd957080874d9a0e9f9
+Digest: sha256:07fb9d10630232672607993ef57e02a373e384fe99e84aee90a41ca99f1b78ca
 Status: Image is up to date for azul-zulu:25
 Java runtime version 25.0.5.1+2-LTS at /usr/lib/jvm/zulu25-ca-amd64
 No bad root certificates found

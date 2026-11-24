@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-23T21:17:01+00:00",
+  "generated_utc": "2026-11-24T21:17:25+00:00",
   "source": "SDKMAN providers / Docker images",
   "majors": [
     17,
@@ -7,10 +7,10 @@
     25
   ],
   "counts": {
-    "PASS": 24,
+    "PASS": 25,
     "FAIL": 4,
     "INCONCLUSIVE": 0,
-    "NOT_TESTED": 1
+    "NOT_TESTED": 0
   },
   "status_descriptions": {
     "FULL": "All 48 hashes blocked; all four target roots absent.",
@@ -31,7 +31,7 @@
       "vendor": "Corretto",
       "major": 17,
       "image": "amazoncorretto:17",
-      "digest": "amazoncorretto@sha256:17b4903d0849e3943762411b4601fa7bffed96cf9be5d43f4629a72e3c7e3166",
+      "digest": "amazoncorretto@sha256:335231cadb7eee6f92303e91461b73282fb4c5fb7c02fe23d45c547730a451c1",
       "java_version": "openjdk version \"17.0.21.1\" 2026-11-17 LTS",
       "java_arch": "amd64",
       "status": "FULL",
@@ -74,7 +74,7 @@
       "vendor": "Corretto",
       "major": 21,
       "image": "amazoncorretto:21",
-      "digest": "amazoncorretto@sha256:a02f509af88bd1544d5bb42be83a20d9022dc15f388a0007e2c7d0d87170b9f4",
+      "digest": "amazoncorretto@sha256:fe9b50d12d33a499fb382d47370017a8dee73a2ab80ea6d5aa9a30ee72c82caa",
       "java_version": "openjdk version \"21.0.13.1\" 2026-11-17 LTS",
       "java_arch": "amd64",
       "status": "FULL",
@@ -117,7 +117,7 @@
       "vendor": "Corretto",
       "major": 25,
       "image": "amazoncorretto:25",
-      "digest": "amazoncorretto@sha256:288b5647146a21027688b52cc23d802ee6badb6f28632111b606b79262d9fc5f",
+      "digest": "amazoncorretto@sha256:d4b9047349107b5c5a3c67f89853c48a83d4c769d4196a03f675a4c365737f7b",
       "java_version": "openjdk version \"25.0.5.1\" 2026-11-17 LTS",
       "java_arch": "amd64",
       "status": "FULL",
@@ -717,7 +717,7 @@
       "vendor": "Liberica NIK",
       "major": 17,
       "image": "bellsoft/hardened-liberica-native-image-kit-container:jdk-17-nik-23-glibc",
-      "digest": "bellsoft/hardened-liberica-native-image-kit-container@sha256:b672489730e799765baa826f9586d549a98b28116f8a138a23bc7504c06d3522",
+      "digest": "bellsoft/hardened-liberica-native-image-kit-container@sha256:eb441fdbdddb855bbbaac6b09f7e70dab46fd419f68126c50a6009cc788f1423",
       "java_version": "openjdk version \"17.0.21.0.3\" 2026-10-24 LTS",
       "java_arch": "amd64",
       "status": "FULL",
@@ -760,7 +760,7 @@
       "vendor": "Liberica NIK",
       "major": 25,
       "image": "bellsoft/hardened-liberica-native-image-kit-container:jdk-25-nik-25-glibc",
-      "digest": "bellsoft/hardened-liberica-native-image-kit-container@sha256:ed1888f7b1de9088a0d31ae2d1cf5203e1dba09c2c97fb99bc926f08e782fb73",
+      "digest": "bellsoft/hardened-liberica-native-image-kit-container@sha256:eca13187ceb7f7249935af33034895dbc8a69fce84878f28c6f52d27d997fd89",
       "java_version": "openjdk version \"25.0.5.0.3\" 2026-10-24 LTS",
       "java_arch": "amd64",
       "status": "FULL",
@@ -1112,24 +1112,46 @@
       "vendor": "Semeru",
       "major": 17,
       "image": "icr.io/appcafe/ibm-semeru-runtimes:open-17-jdk-ubi",
-      "digest": "",
-      "java_version": "",
-      "java_arch": "",
-      "status": "PULL_FAILED",
-      "error": "Error response from daemon: failed to resolve reference \"icr.io/appcafe/ibm-semeru-runtimes:open-17-jdk-ubi\": failed to do request: Head \"https://icr.io/v2/appcafe/ibm-semeru-runtimes/manifests/open-17-jdk-ubi\": dial tcp 169.62.37.243:443: i/o timeout",
-      "blocklist": null,
+      "digest": "icr.io/appcafe/ibm-semeru-runtimes@sha256:e5685dbb66e7d455e798149f64be859e7f77303162d74a5239bc213245ae0d62",
+      "java_version": "openjdk version \"17.0.21.0.3\" 2026-10-24",
+      "java_arch": "amd64",
+      "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
+      "error": "",
+      "blocklist": {
+        "readable": true,
+        "header_ok": true,
+        "matched": 48,
+        "canonical_matched": 16,
+        "total": 48,
+        "missing": [],
+        "file_sha256": "2596bb6dda83c66d96c5a252d7b2ae1f24cc1ae3f1890223b4f3591a8d52bf10"
+      },
       "functional": {
         "status": "NOT_TESTED",
         "reason": "No controlled certificate-chain test configured"
       },
-      "static_policy": "48_FINGERPRINTS_AND_4_ROOT_SUBJECTS",
-      "image_url": "https://icr.io/appcafe/ibm-semeru-runtimes",
+      "static_policy": "48_FINGERPRINTS_AND_CHECKCERTS_EFFECTIVE_ROOTS",
       "checkcerts": {
-        "status": "NOT_TESTED"
+        "status": "ROOT_PRESENT",
+        "exit_code": 1,
+        "bad_roots": [
+          "BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN"
+        ]
       },
       "compromisedca": {
-        "status": "NOT_TESTED"
-      }
+        "status": "PASS",
+        "rejected": 12,
+        "accepted": 0,
+        "inconclusive": 0,
+        "exit_code": "0"
+      },
+      "static_status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
+      "effective_status": "NOT_VERIFIED",
+      "image_url": "https://icr.io/appcafe/ibm-semeru-runtimes",
+      "checkcerts_log": "evidence/Semeru-jdk17/checkcerts.log",
+      "checkcerts_exit": "evidence/Semeru-jdk17/checkcerts.exit",
+      "compromisedca_log": "evidence/Semeru-jdk17/compromisedca.log",
+      "compromisedca_exit": "evidence/Semeru-jdk17/compromisedca.exit"
     },
     {
       "vendor": "Semeru",
@@ -1360,7 +1382,7 @@
       "vendor": "Zulu",
       "major": 17,
       "image": "azul-zulu:17",
-      "digest": "azul-zulu@sha256:8d6ef9577c512c6c1ba23347e9753117c69afc9462f9f42975537117ceca6ea5",
+      "digest": "azul-zulu@sha256:657a90eb5c98993f8d295b98082c4642b0d01a9022ac486e70735de51c278aeb",
       "java_version": "openjdk version \"17.0.21.1\" 2026-11-17 LTS",
       "java_arch": "amd64",
       "status": "FULL",
@@ -1403,7 +1425,7 @@
       "vendor": "Zulu",
       "major": 21,
       "image": "azul-zulu:21",
-      "digest": "azul-zulu@sha256:030301c347e144b78b352a98a61a32241f8d6578dc2aa8d22b911cc7ac7e37ff",
+      "digest": "azul-zulu@sha256:a7ada469d641bc4ecc38783c5fba3914ed40632267609b7f1b73176a2e787e4a",
       "java_version": "openjdk version \"21.0.13.1\" 2026-11-17 LTS",
       "java_arch": "amd64",
       "status": "FULL",
@@ -1446,7 +1468,7 @@
       "vendor": "Zulu",
       "major": 25,
       "image": "azul-zulu:25",
-      "digest": "azul-zulu@sha256:6e688994387052ff293aee39ff306684134ed868e6167fd957080874d9a0e9f9",
+      "digest": "azul-zulu@sha256:07fb9d10630232672607993ef57e02a373e384fe99e84aee90a41ca99f1b78ca",
       "java_version": "openjdk version \"25.0.5.1\" 2026-11-17 LTS",
       "java_arch": "amd64",
       "status": "FULL",
