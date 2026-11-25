@@ -1,6 +1,6 @@
 # JDK eMudhra Security Audit
 
-Generated (UTC): `2026-11-24T21:17:25+00:00`
+Generated (UTC): `2026-11-25T21:18:12+00:00`
 
 SDKMAN supplies vendor names only; the audit runs Docker JDK 25 images. Static file checks, trust-manager checks, and live TLS tests are independent. Image tags can change between runs.
 
@@ -47,8 +47,8 @@ Uses a delegating Java trust manager to check twelve live certificate chains wit
 | Liberica | 17 - [bellsoft/liberica-openjdk-debian:17](https://hub.docker.com/r/bellsoft/liberica-openjdk-debian) | openjdk version "17.0.21.1" 2026-11-17 LTS [amd64] | 48/48 | [ROOTS_ABSENT](evidence/Liberica-jdk17/checkcerts.log) | [PASS (12/12)](evidence/Liberica-jdk17/compromisedca.log) |
 | Liberica | 21 - [bellsoft/liberica-openjdk-debian:21](https://hub.docker.com/r/bellsoft/liberica-openjdk-debian) | openjdk version "21.0.13.1" 2026-11-17 LTS [amd64] | 48/48 | [ROOTS_ABSENT](evidence/Liberica-jdk21/checkcerts.log) | [PASS (12/12)](evidence/Liberica-jdk21/compromisedca.log) |
 | Liberica | 25 - [bellsoft/liberica-openjdk-debian:25](https://hub.docker.com/r/bellsoft/liberica-openjdk-debian) | openjdk version "25.0.5.1" 2026-11-17 LTS [amd64] | 48/48 | [ROOTS_ABSENT](evidence/Liberica-jdk25/checkcerts.log) | [PASS (12/12)](evidence/Liberica-jdk25/compromisedca.log) |
-| Liberica NIK | 17 - [bellsoft/hardened-liberica-native-image-kit-container:jdk-17-nik-23-glibc](https://hub.docker.com/r/bellsoft/hardened-liberica-native-image-kit-container) | openjdk version "17.0.21.0.3" 2026-10-24 LTS [amd64] | 48/48 | [ROOTS_ABSENT](evidence/Liberica_NIK-jdk17/checkcerts.log) | [PASS (12/12)](evidence/Liberica_NIK-jdk17/compromisedca.log) |
-| Liberica NIK | 25 - [bellsoft/hardened-liberica-native-image-kit-container:jdk-25-nik-25-glibc](https://hub.docker.com/r/bellsoft/hardened-liberica-native-image-kit-container) | openjdk version "25.0.5.0.3" 2026-10-24 LTS [amd64] | 48/48 | [ROOTS_ABSENT](evidence/Liberica_NIK-jdk25/checkcerts.log) | [PASS (12/12)](evidence/Liberica_NIK-jdk25/compromisedca.log) |
+| Liberica NIK | 17 - [bellsoft/hardened-liberica-native-image-kit-container:jdk-17-nik-23-glibc](https://hub.docker.com/r/bellsoft/hardened-liberica-native-image-kit-container) | openjdk version "17.0.21.1" 2026-11-17 LTS [amd64] | 48/48 | [ROOTS_ABSENT](evidence/Liberica_NIK-jdk17/checkcerts.log) | [PASS (12/12)](evidence/Liberica_NIK-jdk17/compromisedca.log) |
+| Liberica NIK | 25 - [bellsoft/hardened-liberica-native-image-kit-container:jdk-25-nik-25-glibc](https://hub.docker.com/r/bellsoft/hardened-liberica-native-image-kit-container) | openjdk version "25.0.5.1" 2026-11-17 LTS [amd64] | 48/48 | [ROOTS_ABSENT](evidence/Liberica_NIK-jdk25/checkcerts.log) | [PASS (12/12)](evidence/Liberica_NIK-jdk25/compromisedca.log) |
 | Mandrel | 25 - [quay.io/quarkus/ubi9-quarkus-mandrel-builder-image:jdk-25](https://quay.io/quarkus/ubi9-quarkus-mandrel-builder-image) | openjdk version "25.0.5.1" 2026-11-17 LTS [amd64] | 48/48 | [ROOT_PRESENT](evidence/Mandrel-jdk25/checkcerts.log) | [PASS (12/12)](evidence/Mandrel-jdk25/compromisedca.log) |
 | Microsoft | 17 - [mcr.microsoft.com/openjdk/jdk:17-ubuntu](https://mcr.microsoft.com/en-us/artifact/mar/openjdk/jdk/tags) | openjdk version "17.0.21.1" 2026-11-17 LTS [amd64] | 48/48 | [ROOT_PRESENT](evidence/Microsoft-jdk17/checkcerts.log) | [PASS (12/12)](evidence/Microsoft-jdk17/compromisedca.log) |
 | Microsoft | 21 - [mcr.microsoft.com/openjdk/jdk:21-ubuntu](https://mcr.microsoft.com/en-us/artifact/mar/openjdk/jdk/tags) | openjdk version "21.0.13.1" 2026-11-17 LTS [amd64] | 48/48 | [ROOT_PRESENT](evidence/Microsoft-jdk21/checkcerts.log) | [PASS (12/12)](evidence/Microsoft-jdk21/compromisedca.log) |

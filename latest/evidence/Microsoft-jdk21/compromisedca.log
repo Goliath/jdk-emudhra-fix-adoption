@@ -1,5 +1,5 @@
 21-ubuntu: Pulling from openjdk/jdk
-Digest: sha256:c72d25bc8c7c8139d96fc80eedc873d40abca9d611291447a9c0cda4f33b15d2
+Digest: sha256:6a3d94f5b5212601654408a4de1624640389701e83aaa659660bf8b01a48df63
 Status: Image is up to date for mcr.microsoft.com/openjdk/jdk:21-ubuntu
 CONTROL OK
   peer subject=CN=dv-g3b-emudhra.we-have-a-problem.com SPKI=27A1F73E0E681CA0D5E8CB036A111944CEF09F1EE170A6F6DF0023B97B290A14

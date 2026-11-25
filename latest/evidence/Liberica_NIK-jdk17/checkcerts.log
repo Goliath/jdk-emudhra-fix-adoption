@@ -1,5 +1,5 @@
 jdk-17-nik-23-glibc: Pulling from bellsoft/hardened-liberica-native-image-kit-container
-Digest: sha256:eb441fdbdddb855bbbaac6b09f7e70dab46fd419f68126c50a6009cc788f1423
+Digest: sha256:07b973c279f55c5049a7d63dc9da98a55b33cd3e817a27e136f7d2b509db281e
 Status: Image is up to date for bellsoft/hardened-liberica-native-image-kit-container:jdk-17-nik-23-glibc
-Java runtime version 17.0.21.0.3+6-LTS at /usr/lib/jvm/liberica-nik-23-17
+Java runtime version 17.0.21.1+6-LTS at /usr/lib/jvm/liberica-nik-23-17
 No bad root certificates found
