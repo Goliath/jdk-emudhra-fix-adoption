@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-25T21:18:12+00:00",
+  "generated_utc": "2026-11-26T21:16:59+00:00",
   "source": "SDKMAN providers / Docker images",
   "majors": [
     17,
@@ -7,10 +7,10 @@
     25
   ],
   "counts": {
-    "PASS": 25,
+    "PASS": 24,
     "FAIL": 4,
     "INCONCLUSIVE": 0,
-    "NOT_TESTED": 0
+    "NOT_TESTED": 1
   },
   "status_descriptions": {
     "FULL": "All 48 hashes blocked; all four target roots absent.",
@@ -1202,46 +1202,24 @@
       "vendor": "Semeru",
       "major": 25,
       "image": "icr.io/appcafe/ibm-semeru-runtimes:open-25-jdk-ubi",
-      "digest": "icr.io/appcafe/ibm-semeru-runtimes@sha256:edd4b339342ab12099004d03ebd5c549a074187ed4de6be344b8c99065f0beea",
-      "java_version": "openjdk version \"25.0.5.0.3\" 2026-10-24 LTS",
-      "java_arch": "amd64",
-      "status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
-      "error": "",
-      "blocklist": {
-        "readable": true,
-        "header_ok": true,
-        "matched": 48,
-        "canonical_matched": 16,
-        "total": 48,
-        "missing": [],
-        "file_sha256": "2596bb6dda83c66d96c5a252d7b2ae1f24cc1ae3f1890223b4f3591a8d52bf10"
-      },
+      "digest": "",
+      "java_version": "",
+      "java_arch": "",
+      "status": "PULL_FAILED",
+      "error": "Error response from daemon: failed to resolve reference \"icr.io/appcafe/ibm-semeru-runtimes:open-25-jdk-ubi\": failed to do request: Head \"https://icr.io/v2/appcafe/ibm-semeru-runtimes/manifests/open-25-jdk-ubi\": dial tcp 169.60.98.83:443: i/o timeout",
+      "blocklist": null,
       "functional": {
         "status": "NOT_TESTED",
         "reason": "No controlled certificate-chain test configured"
       },
-      "static_policy": "48_FINGERPRINTS_AND_CHECKCERTS_EFFECTIVE_ROOTS",
+      "static_policy": "48_FINGERPRINTS_AND_4_ROOT_SUBJECTS",
+      "image_url": "https://icr.io/appcafe/ibm-semeru-runtimes",
       "checkcerts": {
-        "status": "ROOT_PRESENT",
-        "exit_code": 1,
-        "bad_roots": [
-          "BAD ROOT: CN=emSign Root CA - G1,O=eMudhra Technologies Limited,OU=emSign PKI,C=IN"
-        ]
+        "status": "NOT_TESTED"
       },
       "compromisedca": {
-        "status": "PASS",
-        "rejected": 12,
-        "accepted": 0,
-        "inconclusive": 0,
-        "exit_code": "0"
-      },
-      "static_status": "BLOCKLIST_COMPLETE_ROOTS_PARTIAL",
-      "effective_status": "NOT_VERIFIED",
-      "image_url": "https://icr.io/appcafe/ibm-semeru-runtimes",
-      "checkcerts_log": "evidence/Semeru-jdk25/checkcerts.log",
-      "checkcerts_exit": "evidence/Semeru-jdk25/checkcerts.exit",
-      "compromisedca_log": "evidence/Semeru-jdk25/compromisedca.log",
-      "compromisedca_exit": "evidence/Semeru-jdk25/compromisedca.exit"
+        "status": "NOT_TESTED"
+      }
     },
     {
       "vendor": "Temurin",
